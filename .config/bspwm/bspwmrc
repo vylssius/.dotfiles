@@ -34,5 +34,5 @@ systemctl start --now bluetooth
 setxkbmap us -variant colemak
 setxkbmap -option "caps:backspace"
 setxkbmap -option "shift:both_capslock"
-$HOME/.config/polybar/cuts/scripts/pywal.sh ~/wallpapers/aesthetic-mountains.jpeg
-$HOME/.config/polybar/launch.sh --cuts
+~/.config/polybar/cuts/scripts/pywal.sh ~/wallpapers/aesthetic-mountains.jpeg
+~/.config/polybar/launch.sh --cuts
