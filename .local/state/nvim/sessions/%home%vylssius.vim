@@ -19,7 +19,7 @@ argglobal
 $argadd .config/bspwm/bspwmrc
 edit .config/bspwm/bspwmrc
 argglobal
-let s:l = 38 - ((37 * winheight(0) + 29) / 59)
+let s:l = 38 - ((37 * winheight(0) + 30) / 60)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
