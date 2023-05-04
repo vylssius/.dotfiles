@@ -1,0 +1,8 @@
+[INFO  Thu 04 May 2023 05:06:36 PM CDT] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=stylua) {}
+[INFO  Thu 04 May 2023 05:06:36 PM CDT] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=shfmt) {}
+[INFO  Thu 04 May 2023 05:06:36 PM CDT] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=json-lsp) {}
+[INFO  Thu 04 May 2023 05:06:36 PM CDT] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=lua-language-server) {}
+[INFO  Thu 04 May 2023 05:06:37 PM CDT] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=stylua)
+[INFO  Thu 04 May 2023 05:06:38 PM CDT] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=shfmt)
+[INFO  Thu 04 May 2023 05:06:38 PM CDT] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=lua-language-server)
+[INFO  Thu 04 May 2023 05:06:41 PM CDT] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=json-lsp)
