@@ -1,7 +1,0 @@
-pane	learningbevy	0	1	:*	0	helios	:/home/vylssius/projects/rust/learningbevy	1	nvim	:nvim src/main.rs
-pane	learningbevy	0	1	:*	1	helios	:/home/vylssius/projects/rust/learningbevy	0	zsh	:
-pane	learningbevy	0	1	:*	2	helios	:/home/vylssius/projects/rust/learningbevy	0	htop	:htop
-pane	misc	0	1	:*	0	helios	:/home/vylssius	1	zsh	:
-window	learningbevy	0	:nvim	1	:*	9235,187x60,0,0{93x60,0,0,1,93x60,94,0[93x30,94,0,2,93x29,94,31,3]}	:
-window	misc	0	:zsh	1	:*	b401,187x60,0,0,4	:
-state	learningbevy	
