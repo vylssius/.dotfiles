@@ -31,9 +31,8 @@ bspc config pointer_action3 resize_corner
 
 #other
 systemctl start --now bluetooth
-sudo setxkbmap us -variant colemak
+setxkbmap us -variant colemak
 setxkbmap -option "caps:backspace"
 setxkbmap -option "shift:both_capslock"
 ~/.config/polybar/cuts/scripts/pywal.sh ~/wallpapers/wallhaven-9mjoy1.png
 ~/.config/polybar/launch.sh --cuts
-#nitrogen --set-auto ~/wallpapers/aesthetic-mountains.jpeg
