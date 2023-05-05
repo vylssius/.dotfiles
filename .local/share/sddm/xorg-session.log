@@ -1,4 +1,4 @@
-[ 05/04/2023 17:26:17.230 parse_config_libconfig WARN ] The refresh-rate option has been deprecated. Please remove it from your configuration file. If you encounter any problems without this feature, please feel free to open a bug report
+[ 05/04/2023 19:12:18.052 parse_config_libconfig WARN ] The refresh-rate option has been deprecated. Please remove it from your configuration file. If you encounter any problems without this feature, please feel free to open a bug report
 Failed to start bluetooth.service: Interactive authentication required.
 See system logs and 'systemctl status bluetooth.service' for details.
 polybar-msg: No active ipc channels
@@ -12,63 +12,6 @@ polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-[124 17:26:24.567057] [PARSE ERROR] Unknown OSC code: 13
-[124 17:26:24.567147] [PARSE ERROR] Unknown OSC code: 708
-[124 17:26:24.567439] [PARSE ERROR] Unknown OSC code: 13
-[124 17:26:24.567478] [PARSE ERROR] Unknown OSC code: 708
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-[124 17:26:35.015789] Escape codes to resize text area are not supported
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
@@ -105,14 +48,6 @@ polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
-[ERROR viaduct::backend::ffi] Missing HTTP status
-[ERROR viaduct::backend::ffi] Missing HTTP status
-polybar|error: module/mpd: Connection refused
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
 polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
@@ -139,15 +74,6 @@ polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
-[124 17:30:00.943396] Escape codes to resize text area are not supported
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-polybar|error: module/mpd: Connection refused
-[124 17:30:16.517599] Escape codes to resize text area are not supported
 polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
@@ -158,15 +84,136 @@ polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
-[124 17:30:35.297528] [PARSE ERROR] Unknown OSC code: 13
-[124 17:30:35.297614] [PARSE ERROR] Unknown OSC code: 708
-[124 17:30:35.297920] [PARSE ERROR] Unknown OSC code: 13
-[124 17:30:35.297959] [PARSE ERROR] Unknown OSC code: 708
-[124 17:30:36.096405] [glfw error 65545]: X11: Failed to convert selection to data from clipboard
 polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
 polybar|error: module/mpd: Connection refused
-[ERROR viaduct::backend::ffi] Missing HTTP status
-[ERROR viaduct::backend::ffi] Missing HTTP status
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+[124 19:17:37.372785] [PARSE ERROR] Unknown OSC code: 13
+[124 19:17:37.372860] [PARSE ERROR] Unknown OSC code: 708
+[124 19:17:37.373100] [PARSE ERROR] Unknown OSC code: 13
+[124 19:17:37.373138] [PARSE ERROR] Unknown OSC code: 708
+polybar|error: module/mpd: Connection refused
+[124 19:17:39.308680] Application escape mode is not supported, the extended keyboard protocol should be used instead
+[124 19:17:39.308695] Application escape mode is not supported, the extended keyboard protocol should be used instead
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
