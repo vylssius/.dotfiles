@@ -516,3 +516,27 @@
 2023-05-05T04:06:26.932Z [Modules] Installing discord_game_utils@1 from /home/vylssius/.config/discord/0.0.27/modules/pending/discord_game_utils-1.zip
 2023-05-05T04:06:26.983Z [Modules] Installing discord_rpc@1 from /home/vylssius/.config/discord/0.0.27/modules/pending/discord_rpc-1.zip
 2023-05-05T04:06:26.994Z [Modules] Finished module installations. [success: 3] [failure: 0]
+2023-05-05T21:22:22.744Z [Modules] Modules initializing
+2023-05-05T21:22:22.746Z [Modules] Distribution: remote
+2023-05-05T21:22:22.746Z [Modules] Host updates: enabled
+2023-05-05T21:22:22.746Z [Modules] Module updates: enabled
+2023-05-05T21:22:22.746Z [Modules] Module install path: /home/vylssius/.config/discord/0.0.27/modules
+2023-05-05T21:22:22.746Z [Modules] Module installed file path: /home/vylssius/.config/discord/0.0.27/modules/installed.json
+2023-05-05T21:22:22.746Z [Modules] Module download path: /home/vylssius/.config/discord/0.0.27/modules/pending
+2023-05-05T21:22:24.146Z [Modules] No updates to install
+2023-05-05T21:22:24.146Z [Modules] Checking for host updates.
+2023-05-05T21:22:24.314Z [Modules] Host is up to date.
+2023-05-05T21:22:24.315Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-05-05T21:22:24.353Z [Modules] No module updates available.
+2023-05-05T21:22:27.037Z [Modules] Checking for host updates.
+2023-05-05T21:22:27.103Z [Modules] Host is up to date.
+2023-05-05T21:22:27.103Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-05-05T21:22:27.105Z [Modules] No module updates available.
+2023-05-05T22:22:27.039Z [Modules] Checking for host updates.
+2023-05-05T22:22:27.153Z [Modules] Host is up to date.
+2023-05-05T22:22:27.153Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-05-05T22:22:27.238Z [Modules] No module updates available.
+2023-05-05T23:22:27.045Z [Modules] Checking for host updates.
+2023-05-05T23:22:27.164Z [Modules] Host is up to date.
+2023-05-05T23:22:27.164Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-05-05T23:22:27.212Z [Modules] No module updates available.

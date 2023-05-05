@@ -13,18 +13,18 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +144 .config/polybar/forest/config.ini
+badd +37 .config/bspwm/bspwmrc
 argglobal
 %argdel
-$argadd .config/polybar/forest/config.ini
-edit .config/polybar/forest/config.ini
+$argadd .config/bspwm/bspwmrc
+edit .config/bspwm/bspwmrc
 argglobal
-let s:l = 144 - ((30 * winheight(0) + 30) / 61)
+let s:l = 37 - ((36 * winheight(0) + 29) / 59)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 144
-normal! 059|
+keepjumps 37
+normal! 0103|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

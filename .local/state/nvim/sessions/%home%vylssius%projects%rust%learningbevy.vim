@@ -19,7 +19,7 @@ argglobal
 $argadd src/main.rs
 edit src/main.rs
 argglobal
-let s:l = 1 - ((0 * winheight(0) + 29) / 59)
+let s:l = 1 - ((0 * winheight(0) + 30) / 60)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
