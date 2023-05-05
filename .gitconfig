@@ -2,4 +2,4 @@
 	name = Vylssius
 	email = vylssius@hotmail.com
 [credential]
-	helper = cache
+	helper = cache --timeout=1814400000
