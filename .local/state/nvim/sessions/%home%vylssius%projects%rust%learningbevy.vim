@@ -13,7 +13,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +1 src/main.rs
+badd +0 src/main.rs
 argglobal
 %argdel
 $argadd src/main.rs

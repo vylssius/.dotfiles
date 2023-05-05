@@ -35,4 +35,4 @@ setxkbmap us -variant colemak
 setxkbmap -option "caps:backspace"
 setxkbmap -option "shift:both_capslock"
 ~/.config/polybar/cuts/scripts/pywal.sh ~/wallpapers/wallhaven-9mjoy1.png
-~/.config/polybar/launch.sh --cuts
+~/.config/polybar/launch.sh --forest
