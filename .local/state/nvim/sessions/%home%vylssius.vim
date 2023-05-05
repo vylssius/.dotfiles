@@ -13,11 +13,11 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +39 .config/bspwm/bspwmrc
+badd +46 /etc/default/grub
 argglobal
 %argdel
-$argadd .config/bspwm/bspwmrc
-edit .config/bspwm/bspwmrc
+$argadd /etc/default/grub
+edit /etc/default/grub
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -26,12 +26,12 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 argglobal
-let s:l = 38 - ((37 * winheight(0) + 29) / 59)
+let s:l = 46 - ((42 * winheight(0) + 30) / 60)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 38
-normal! 034|
+keepjumps 46
+normal! 038|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
