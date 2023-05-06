@@ -34,5 +34,5 @@ systemctl start --now bluetooth
 setxkbmap us -variant colemak
 setxkbmap -option "caps:backspace"
 setxkbmap -option "shift:both_capslock"
-~/.config/polybar/cuts/scripts/pywal.sh ~/wallpapers/rick_and_morty_car_rainbow-wallpaper-1920x1080.jpg
 ~/.config/polybar/launch.sh --forest
+~/.config/polybar/cuts/scripts/pywal.sh ~/wallpapers/rick_and_morty_car_rainbow-wallpaper-1920x1080.jpg

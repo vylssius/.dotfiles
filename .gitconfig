@@ -3,3 +3,7 @@
 	email = vylssius@hotmail.com
 [credential]
 	helper = cache --timeout=1814400000
+	helper = 
+	helper = /usr/bin/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
