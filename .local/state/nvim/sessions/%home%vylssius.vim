@@ -13,18 +13,18 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +0 .gitconfig
+badd +37 .config/bspwm/bspwmrc
 argglobal
 %argdel
-$argadd .gitconfig
-edit .gitconfig
+$argadd .config/bspwm/bspwmrc
+edit .config/bspwm/bspwmrc
 argglobal
-let s:l = 6 - ((5 * winheight(0) + 30) / 60)
+let s:l = 37 - ((36 * winheight(0) + 29) / 59)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 6
-normal! 033|
+keepjumps 37
+normal! 024|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

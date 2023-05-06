@@ -6,3 +6,52 @@
 [WARN][2023-05-06 00:10:24] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
 [START][2023-05-06 00:13:17] LSP logging initiated
 [WARN][2023-05-06 00:13:17] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 00:48:36] LSP logging initiated
+[WARN][2023-05-06 00:48:36] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 00:51:07] LSP logging initiated
+[WARN][2023-05-06 00:51:07] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 00:53:43] LSP logging initiated
+[WARN][2023-05-06 00:53:43] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 00:56:38] LSP logging initiated
+[WARN][2023-05-06 00:56:38] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 00:58:28] LSP logging initiated
+[WARN][2023-05-06 00:58:28] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 00:59:11] LSP logging initiated
+[WARN][2023-05-06 00:59:11] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 00:59:47] LSP logging initiated
+[WARN][2023-05-06 00:59:47] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 01:02:47] LSP logging initiated
+[WARN][2023-05-06 01:02:47] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 01:03:09] LSP logging initiated
+[WARN][2023-05-06 01:03:09] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[ERROR][2023-05-06 01:05:36] .../vim/lsp/rpc.lua:734	"rpc"	"node"	"stderr"	"(node:33691) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 change listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+[START][2023-05-06 01:07:59] LSP logging initiated
+[WARN][2023-05-06 01:07:59] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 01:09:33] LSP logging initiated
+[WARN][2023-05-06 01:09:33] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[ERROR][2023-05-06 01:10:39] .../vim/lsp/rpc.lua:734	"rpc"	"node"	"stderr"	"(node:35199) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 change listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+[START][2023-05-06 01:45:57] LSP logging initiated
+[WARN][2023-05-06 01:45:57] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[ERROR][2023-05-06 01:47:42] .../vim/lsp/rpc.lua:734	"rpc"	"node"	"stderr"	"(node:43809) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 change listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+[START][2023-05-06 01:59:04] LSP logging initiated
+[WARN][2023-05-06 01:59:04] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 02:03:54] LSP logging initiated
+[WARN][2023-05-06 02:03:54] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 02:10:16] LSP logging initiated
+[WARN][2023-05-06 02:10:16] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 02:22:11] LSP logging initiated
+[WARN][2023-05-06 02:22:11] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 02:23:56] LSP logging initiated
+[WARN][2023-05-06 02:23:56] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 02:32:15] LSP logging initiated
+[WARN][2023-05-06 02:32:15] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 02:32:31] LSP logging initiated
+[WARN][2023-05-06 02:32:31] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 02:34:10] LSP logging initiated
+[WARN][2023-05-06 02:34:10] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 02:38:00] LSP logging initiated
+[WARN][2023-05-06 02:38:00] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 02:44:39] LSP logging initiated
+[WARN][2023-05-06 02:44:39] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-06 02:45:52] LSP logging initiated
+[WARN][2023-05-06 02:45:52] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
