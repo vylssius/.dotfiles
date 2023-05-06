@@ -13,18 +13,18 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +113 .zshrc
+badd +0 .config/polybar/forest/scripts/styles.sh
 argglobal
 %argdel
-$argadd .zshrc
-edit .zshrc
+$argadd .config/polybar/forest/scripts/styles.sh
+edit .config/polybar/forest/scripts/styles.sh
 argglobal
-let s:l = 113 - ((48 * winheight(0) + 30) / 61)
+let s:l = 30 - ((29 * winheight(0) + 30) / 61)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 113
-normal! 022|
+keepjumps 30
+normal! 0
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
