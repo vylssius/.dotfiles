@@ -3,7 +3,7 @@ let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~
+cd ~/.dotfiles
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
@@ -13,11 +13,11 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +0 .gitconfig
+badd +6 ~/.gitconfig
 argglobal
 %argdel
-$argadd .gitconfig
-edit .gitconfig
+$argadd ~/.gitconfig
+edit ~/.gitconfig
 argglobal
 let s:l = 6 - ((5 * winheight(0) + 30) / 60)
 if s:l < 1 | let s:l = 1 | endif
