@@ -1,0 +1,191 @@
+2023-05-07 03:50:47.642 - [ 11829] - [     1] - INFO  - [Unity.Licensing.Client.Program] cloudEnvironment: production
+2023-05-07 03:50:47.649 - [ 11829] - [     1] - INFO  - [Unity.Licensing.Client.Program] Client product version: 1.12.1+9338cad
+2023-05-07 03:50:47.649 - [ 11829] - [     1] - INFO  - [Unity.Licensing.Client.Program] Client assembly version: 1.12.1.0
+2023-05-07 03:50:47.649 - [ 11829] - [     1] - INFO  - [Unity.Licensing.Client.Program] File version: 1.12.1 (/opt/unityhub/UnityLicensingClient_V1/Unity.Licensing.Client.dll)
+2023-05-07 03:50:47.649 - [ 11829] - [     1] - INFO  - [Unity.Licensing.Client.Program] Current OS: Linux 6.3.1-arch1-1 #1 SMP PREEMPT_DYNAMIC Mon, 01 May 2023 17:42:39 +0000
+2023-05-07 03:50:47.649 - [ 11829] - [     1] - INFO  - [Unity.Licensing.Client.Program] Command line arguments:  --namedPipe Unity-LicenseClient-vylssius --cloudEnvironment production
+2023-05-07 03:50:47.652 - [ 11829] - [     1] - INFO  - [Unity.Licensing.Client.Program] Analytics CorrelationId: c86cce1d5d54d5dd5920d7a602b6bf32
+2023-05-07 03:50:47.655 - [ 11829] - [    14] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] GlobalMutex Unity-LicenseClient-vylssius created (on thread: 14)
+2023-05-07 03:50:47.655 - [ 11829] - [     1] - WARN  - [Unity.Licensing.Client.Services.LicensingOrchestrator] Floating licensing service disabled: Invalid servicesConfiguration for licensing. Make sure the licensingServiceBaseUrl servicesConfiguration is a valid URL
+2023-05-07 03:50:47.655 - [ 11829] - [     1] - WARN  - [Unity.Licensing.Client.Services.LicensingOrchestrator] Licensing replication disabled: Failed to acquire Licensing Service URL from configuration under configuration key: licensingServiceBaseUrl
+2023-05-07 03:50:47.658 - [ 11829] - [     1] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:50:47.659 - [ 11829] - [     1] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0002412
+2023-05-07 03:50:47.672 - [ 11829] - [     1] - INFO  - [Unity.Licensing.Client.Services.Replication.InactiveLicenseFileCleaner] Start cleaning expired and inactive license file(s): 
+
+2023-05-07 03:50:47.672 - [ 11829] - [     1] - INFO  - [Unity.Licensing.Client.Services.Replication.InactiveLicenseFileCleaner] Cleanup finished successfully, deleted 0 expired license file(s)
+2023-05-07 03:50:47.672 - [ 11829] - [     1] - WARN  - [Unity.Licensing.Client.Services.LicensingOrchestrator] Unable to find valid licenses and remote licensing service is not configured
+2023-05-07 03:50:47.677 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutConfigPeriodicUpdateService] Syncing OptOut status...
+2023-05-07 03:50:47.678 - [ 11829] - [    11] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Trying to update PACL ...
+2023-05-07 03:50:47.678 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutStatusProvider] Getting OptOut status...
+2023-05-07 03:50:47.679 - [ 11829] - [    16] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Starting named pipe server (on thread: 16)
+2023-05-07 03:50:47.680 - [ 11829] - [    17] - WARN  - [Unity.Licensing.Client.Services.Analytics.OptOutConfigPeriodicUpdateService] Failed to get OptOut status. An error occured while getting IRSOptOutStatus. [GetUserInfo] Error: Token not found in cache
+2023-05-07 03:50:47.682 - [ 11829] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #1)
+2023-05-07 03:50:47.682 - [ 11829] - [    16] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server started
+2023-05-07 03:50:47.682 - [ 11829] - [    16] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Starting named pipe server (on thread: 16)
+2023-05-07 03:50:47.682 - [ 11829] - [    16] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server started
+2023-05-07 03:50:47.682 - [ 11829] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Waiting for a connection (pipe #1)
+2023-05-07 03:50:47.684 - [ 11829] - [    11] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] Getting PACL from remote uri: "https://license.unity3d.com/licenses/v1/packages/acl" ...
+2023-05-07 03:50:47.685 - [ 11829] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #2)
+2023-05-07 03:50:47.688 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] new pipe session: f8a25f11ee734dc3b12438ea6dec0ba7
+2023-05-07 03:50:47.691 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] A new client is connecting (pipe #1)
+2023-05-07 03:50:47.692 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Start accepting requests
+2023-05-07 03:50:47.716 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Controllers.HandshakeController] Received handshake from: Hub 3.4.2 (LocalIPC/1.12)
+2023-05-07 03:50:47.726 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-1 | Sending HandshakeResponse for request HandshakeRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Handshake successful
+2023-05-07 03:50:47.743 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Controllers.AccessTokenController] Access token is empty, user logged out
+2023-05-07 03:50:47.744 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-2 | Sending AccessTokenResponse for request AccessTokenRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  (null)
+2023-05-07 03:50:47.747 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:50:47.747 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000067
+2023-05-07 03:50:47.752 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-3 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:50:47.787 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:50:47.787 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000063
+2023-05-07 03:50:47.787 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-4 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:50:47.789 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:50:47.789 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000045
+2023-05-07 03:50:47.789 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-5 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:50:47.790 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:50:47.790 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000045
+2023-05-07 03:50:47.790 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-6 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:50:47.802 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:50:47.802 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000053
+2023-05-07 03:50:47.802 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-7 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:50:47.914 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:50:47.914 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000045
+2023-05-07 03:50:47.914 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-8 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:50:48.061 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-9 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Found 0 entitlements
+2023-05-07 03:50:48.067 - [ 11829] - [    22] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Downloaded remote config from: "https://public-cdn.cloud.unity3d.com/config/production"
+2023-05-07 03:50:48.068 - [ 11829] - [    22] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Unity remote config is updated: "/home/vylssius/.config/unity3d/Unity/config/production.json"
+2023-05-07 03:50:48.147 - [ 11829] - [     9] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] New PACL file is written successfully from remote uri: "https://license.unity3d.com/licenses/v1/packages/acl"
+2023-05-07 03:50:48.149 - [ 11829] - [     7] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Successfully updated PACL file after 1 attempt(s). Next update in 24.00 hours.
+2023-05-07 03:50:48.149 - [ 11829] - [     7] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Loading remote PACL, revision: 30, version: 1.0
+2023-05-07 03:50:48.697 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:50:48.698 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000095
+2023-05-07 03:50:48.698 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-10 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:50:48.699 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:50:48.699 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000060
+2023-05-07 03:50:48.699 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-11 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:50:48.710 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:50:48.710 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000055
+2023-05-07 03:50:48.710 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-12 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:50:48.711 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:50:48.711 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000056
+2023-05-07 03:50:48.712 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-13 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:50:48.725 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:50:48.725 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000126
+2023-05-07 03:50:48.725 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-14 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:50:48.737 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:50:48.737 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000052
+2023-05-07 03:50:48.737 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-15 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:50:49.149 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:50:49.149 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000116
+2023-05-07 03:50:49.149 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-16 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:50:49.162 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-17 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Found 0 entitlements
+2023-05-07 03:51:02.861 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-18 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Found 0 entitlements
+2023-05-07 03:51:02.872 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Controllers.AccessTokenController] Got access token (expires in 30758400 seconds)
+2023-05-07 03:51:02.875 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-19 | Sending AccessTokenResponse for request AccessTokenRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  (null)
+2023-05-07 03:51:02.877 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:51:02.877 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000090
+2023-05-07 03:51:02.877 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-20 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:51:02.879 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:51:02.879 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000072
+2023-05-07 03:51:02.880 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-21 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:51:02.884 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:51:02.884 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000041
+2023-05-07 03:51:02.884 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-22 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:51:03.219 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Attempting to contact genesis update license api
+2023-05-07 03:51:03.316 - [ 11829] - [     7] - WARN  - [GenesisClient.HttpRequests] Handled response: [404 | Not Found | {
+  "type" : "https://httpstatuses.com/404",
+  "title" : "Invalid context",
+  "status" : 404,
+  "errorCode" : 404005,
+  "detail" : "Machine bindings in context was not registered before",
+  "instance" : "/licenses/v1/context",
+  "results" : [ ]
+}] from request: [POST | https://license.unity3d.com/licenses/v1/context | {"context":{"DeviceName":"helios","DeviceModel":"PC","PhysicalMemoryMB":"31930","SystemLanguageISO":"en_US","ProcessorCount":"12","ProcessorType":"Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz","OperatingSystem":"Linux 6.3 Arch Linux  64bit","OperatingSystemNumeric":"603","Legacy.MachineBinding1":"db3009a28d1a486eb9c55e7bac0133d4","Legacy.MachineBinding2":"db3009a28d1a486eb9c55e7bac0133d4","EnvironmentUser":"vylssius","EnvironmentDomain":"helios","EnvironmentHostname":"helios"}}]
+2023-05-07 03:51:03.322 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:51:03.322 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000061
+2023-05-07 03:51:03.324 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-23 | Sending ActivationManagementResponse for request ActivationManagementRequest from Hub 3.4.2 (LocalIPC/1.12) [207]:  Successfully processed activation management call
+2023-05-07 03:51:03.325 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:51:03.325 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000047
+2023-05-07 03:51:03.325 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-24 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:51:03.326 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:51:03.326 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000029
+2023-05-07 03:51:03.326 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-25 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:51:03.327 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:51:03.327 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000023
+2023-05-07 03:51:03.327 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-26 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:51:03.337 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:51:03.337 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000049
+2023-05-07 03:51:03.337 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-27 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:51:03.338 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:51:03.338 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000038
+2023-05-07 03:51:03.338 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-28 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:51:03.349 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-29 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Found 0 entitlements
+2023-05-07 03:51:14.434 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:51:14.434 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000046
+2023-05-07 03:51:14.434 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-30 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:51:14.446 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:51:14.446 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000043
+2023-05-07 03:51:14.446 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-31 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:51:14.455 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:51:14.455 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000044
+2023-05-07 03:51:14.455 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-32 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:51:14.466 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  
+2023-05-07 03:51:14.466 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000047
+2023-05-07 03:51:14.466 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-33 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 0 groups
+2023-05-07 03:51:17.149 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] [ebb644972f0646dfa26f189def925592] Starting Ulf transaction for NEW operation
+2023-05-07 03:51:19.423 - [ 11829] - [     7] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] [ebb644972f0646dfa26f189def925592] ULF license activated successfully
+2023-05-07 03:51:19.429 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:19.429 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:19.429 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:19.429 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000528
+2023-05-07 03:51:19.431 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] OnEntitlementResolverUpdated, will restart timer
+2023-05-07 03:51:19.432 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-34 | Sending ULFActivationResponse for request ULFActivationRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  ULF license activated successfully
+2023-05-07 03:51:19.436 - [ 11829] - [     9] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 00:30:00
+2023-05-07 03:51:19.449 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:19.449 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:19.450 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:19.450 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000462
+2023-05-07 03:51:19.455 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-35 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 03:51:19.461 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:19.461 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:19.461 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:19.462 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000623
+2023-05-07 03:51:19.462 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-36 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 03:51:19.463 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-37 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 03:51:19.470 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:19.470 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:19.470 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:19.470 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000521
+2023-05-07 03:51:19.475 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-38 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 03:51:19.481 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:19.481 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:19.481 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:19.481 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000358
+2023-05-07 03:51:19.482 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-39 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 03:51:19.488 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-40 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 03:51:47.785 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:47.785 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:47.785 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:51:47.785 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0001270
+2023-05-07 03:51:47.786 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-41 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 03:51:48.037 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-42 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 03:52:12.037 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:52:12.037 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:52:12.037 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:52:12.037 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000331
+2023-05-07 03:52:12.037 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-43 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 03:52:12.044 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:52:12.044 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:52:12.044 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:52:12.044 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000324
+2023-05-07 03:52:12.044 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-44 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 03:52:12.054 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:52:12.054 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:52:12.054 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:52:12.054 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000490
+2023-05-07 03:52:12.055 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-45 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 03:52:12.060 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:52:12.060 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:52:12.060 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 03:52:12.060 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000339
+2023-05-07 03:52:12.060 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-46 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
