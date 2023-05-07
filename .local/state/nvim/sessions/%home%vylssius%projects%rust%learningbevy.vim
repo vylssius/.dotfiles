@@ -1,6 +1,8 @@
 let SessionLoad = 1
 let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-1 siso=-1
 let v:this_session=expand("<sfile>:p")
+let NetrwMenuPriority =  80 
+let NetrwTopLvlMenu = "Netrw."
 silent only
 silent tabonly
 cd ~/projects/rust/learningbevy
@@ -13,7 +15,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +0 src/main.rs
+badd +1 src/main.rs
 argglobal
 %argdel
 $argadd src/main.rs
@@ -24,7 +26,8 @@ if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
 keepjumps 1
-normal! 0
+normal! 011|
+lcd ~/projects/rust/learningbevy
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

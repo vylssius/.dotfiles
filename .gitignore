@@ -1,3 +1,4 @@
 .local/share/nvim/lazy
 .local/share/sddm
 .local/share
+.config/discord

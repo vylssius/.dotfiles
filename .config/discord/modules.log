@@ -560,3 +560,19 @@
 2023-05-06T07:04:28.883Z [Modules] Host is up to date.
 2023-05-06T07:04:28.883Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
 2023-05-06T07:04:28.919Z [Modules] No module updates available.
+2023-05-06T22:50:09.802Z [Modules] Modules initializing
+2023-05-06T22:50:09.804Z [Modules] Distribution: remote
+2023-05-06T22:50:09.804Z [Modules] Host updates: enabled
+2023-05-06T22:50:09.804Z [Modules] Module updates: enabled
+2023-05-06T22:50:09.804Z [Modules] Module install path: /home/vylssius/.config/discord/0.0.27/modules
+2023-05-06T22:50:09.804Z [Modules] Module installed file path: /home/vylssius/.config/discord/0.0.27/modules/installed.json
+2023-05-06T22:50:09.804Z [Modules] Module download path: /home/vylssius/.config/discord/0.0.27/modules/pending
+2023-05-06T22:50:10.033Z [Modules] No updates to install
+2023-05-06T22:50:10.034Z [Modules] Checking for host updates.
+2023-05-06T22:50:10.164Z [Modules] Host is up to date.
+2023-05-06T22:50:10.164Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-05-06T22:50:10.250Z [Modules] No module updates available.
+2023-05-06T22:50:12.234Z [Modules] Checking for host updates.
+2023-05-06T22:50:12.310Z [Modules] Host is up to date.
+2023-05-06T22:50:12.311Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-05-06T22:50:12.313Z [Modules] No module updates available.
