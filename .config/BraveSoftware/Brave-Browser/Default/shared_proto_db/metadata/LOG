@@ -1,2 +1,3 @@
-2023/05/07-16:38:11.683 1ea4 Creating DB /home/vylssius/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/metadata since it was missing.
-2023/05/07-16:38:11.700 1ea4 Reusing MANIFEST /home/vylssius/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/metadata/MANIFEST-000001
+2023/05/07-16:48:05.247 26dc Reusing MANIFEST /home/vylssius/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/metadata/MANIFEST-000001
+2023/05/07-16:48:05.247 26dc Recovering log #3
+2023/05/07-16:48:05.247 26dc Reusing old log /home/vylssius/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/metadata/000003.log 

@@ -21,7 +21,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +5 .gitignore
+badd +6 .gitignore
 argglobal
 %argdel
 $argadd .gitignore
@@ -34,12 +34,12 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 argglobal
-let s:l = 5 - ((4 * winheight(0) + 30) / 61)
+let s:l = 6 - ((5 * winheight(0) + 30) / 61)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 5
-normal! 012|
+keepjumps 6
+normal! 021|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
