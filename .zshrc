@@ -111,7 +111,7 @@ alias bup='sudo brillo -A 5 -q'
 alias bdown='sudo brillo -U 5 -q'
 alias sudo='sudo '
 alias sd='shutdown now'
-alias anime='ani-cli'
+alias anime='ani-cli --dub'
 
 # Import colorscheme from 'wal' asynchronously
 # &   # Run the process in the background.

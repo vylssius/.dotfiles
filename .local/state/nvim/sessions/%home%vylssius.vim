@@ -19,12 +19,12 @@ argglobal
 $argadd .zshrc
 edit .zshrc
 argglobal
-let s:l = 114 - ((50 * winheight(0) + 31) / 62)
+let s:l = 114 - ((48 * winheight(0) + 30) / 61)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
 keepjumps 114
-normal! 020|
+normal! 026|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
