@@ -1,6 +1,7 @@
 # web browser
 super + w
-    firefox
+    brave-browser
+    #firefox
     #chromium
     #al-browser
 
