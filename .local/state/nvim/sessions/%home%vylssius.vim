@@ -13,18 +13,18 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +42 .config/bspwm/bspwmrc
+badd +2 .config/nvim/lua/plugins/neodev.lua
 argglobal
 %argdel
-$argadd .config/bspwm/bspwmrc
-edit .config/bspwm/bspwmrc
+$argadd .config/nvim/lua/plugins/neodev.lua
+edit .config/nvim/lua/plugins/neodev.lua
 argglobal
-let s:l = 42 - ((41 * winheight(0) + 30) / 60)
+let s:l = 2 - ((1 * winheight(0) + 30) / 60)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 42
-normal! 032|
+keepjumps 2
+normal! 03|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
