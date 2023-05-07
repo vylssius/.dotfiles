@@ -1,6 +1,3 @@
-2023/05/06-17:50:09.821 50f9 Reusing MANIFEST /home/vylssius/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2023/05/06-17:50:09.821 50f9 Recovering log #12
-2023/05/06-17:50:09.821 50f9 Reusing old log /home/vylssius/.config/discord/Local Storage/leveldb/000012.log 
-2023/05/06-17:52:10.398 50f9 Level-0 table #16: started
-2023/05/06-17:52:10.428 50f9 Level-0 table #16: 1591961 bytes OK
-2023/05/06-17:52:10.433 50f9 Delete type=0 #12
+2023/05/06-19:48:50.929 4fc Reusing MANIFEST /home/vylssius/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/05/06-19:48:50.930 4fc Recovering log #19
+2023/05/06-19:48:50.930 4fc Reusing old log /home/vylssius/.config/discord/Local Storage/leveldb/000019.log 

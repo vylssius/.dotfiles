@@ -35,8 +35,13 @@ bspc config pointer_action1 move
 bspc config pointer_action2 resize_side
 bspc config pointer_action3 resize_corner
 
+#rules
+bspc rule -a discord desktop="^10"
+bspc rule -a Spotify desktop="^9"
+bspc rule -a Steam desktop="^8"
+bspc rule -a firefox desktop="^2"
+
 #other
-systemctl start --now bluetooth
 setxkbmap us -variant colemak
 setxkbmap -option "caps:backspace"
 setxkbmap -option "shift:both_capslock"
