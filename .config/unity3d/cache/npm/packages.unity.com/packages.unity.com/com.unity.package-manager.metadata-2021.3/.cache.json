@@ -1,0 +1,222 @@
+{
+  "dist-tags": {
+    "latest": "0.0.12"
+  },
+  "versions": {
+    "0.0.12": {
+      "name": "com.unity.package-manager.metadata-2021.3",
+      "version": "0.0.12",
+      "description": "Contains metadata used by the 2021.3 Unity Editor.",
+      "category": "",
+      "type": "metadata",
+      "host": "editor",
+      "files": [
+        "manifest-overrides.json"
+      ],
+      "upmCi": {
+        "footprint": "ff4403f9efa0677001e3fdc4dd1d6e430bd342d9"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/rm-remote-upm-package-metadata",
+        "revision": "a4d7a182fcf1a303395a9afd7da285b68df963ea"
+      },
+      "dist": {
+        "shasum": "e0a4df067f89609261ce364835b15cbb3e0543f6",
+        "tarball": "https://download.packages.unity.com/com.unity.package-manager.metadata-2021.3/-/com.unity.package-manager.metadata-2021.3-0.0.12.tgz"
+      }
+    },
+    "0.0.10": {
+      "name": "com.unity.package-manager.metadata-2021.3",
+      "version": "0.0.10",
+      "description": "Contains metadata used by the 2021.3 Unity Editor.",
+      "category": "",
+      "type": "metadata",
+      "host": "editor",
+      "files": [
+        "manifest-overrides.json"
+      ],
+      "upmCi": {
+        "footprint": "2e3fb01d82ac2d25bb0980017b8549b559b88b94"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/rm-remote-upm-package-metadata",
+        "revision": "451d1360359436980110f6a9152a21e417b2a6be"
+      },
+      "dist": {
+        "shasum": "4b555663399d85d44c17bfdf7c8edd29896c5ae5",
+        "tarball": "https://download.packages.unity.com/com.unity.package-manager.metadata-2021.3/-/com.unity.package-manager.metadata-2021.3-0.0.10.tgz"
+      }
+    },
+    "0.0.9": {
+      "name": "com.unity.package-manager.metadata-2021.3",
+      "version": "0.0.9",
+      "description": "Contains metadata used by the 2021.3 Unity Editor.",
+      "category": "",
+      "type": "metadata",
+      "host": "editor",
+      "files": [
+        "manifest-overrides.json"
+      ],
+      "upmCi": {
+        "footprint": "471e8aba3cf60e5bd90da142cba7d6bc93ecdc46"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/rm-remote-upm-package-metadata",
+        "revision": "00cf4df0e073f446d088f9d5b966c73d70cb4d86"
+      },
+      "dist": {
+        "shasum": "377b87c781cb1fa5fc3631a4f71a1f75dec14fa2",
+        "tarball": "https://download.packages.unity.com/com.unity.package-manager.metadata-2021.3/-/com.unity.package-manager.metadata-2021.3-0.0.9.tgz"
+      }
+    },
+    "0.0.8": {
+      "name": "com.unity.package-manager.metadata-2021.3",
+      "version": "0.0.8",
+      "description": "Contains metadata used by the 2021.3 Unity Editor.",
+      "category": "",
+      "type": "metadata",
+      "host": "editor",
+      "files": [
+        "manifest-overrides.json"
+      ],
+      "upmCi": {
+        "footprint": "817311f5ebe2c02ef175653474a9d65ede9dd2a5"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/rm-remote-upm-package-metadata",
+        "revision": "86b8a4ad08336f5022444152fe18b9768c8a5eb7"
+      },
+      "dist": {
+        "shasum": "a97bddc06c6b51d495a428b7a565ebdc243ab1e4",
+        "tarball": "https://download.packages.unity.com/com.unity.package-manager.metadata-2021.3/-/com.unity.package-manager.metadata-2021.3-0.0.8.tgz"
+      }
+    },
+    "0.0.7": {
+      "name": "com.unity.package-manager.metadata-2021.3",
+      "version": "0.0.7",
+      "description": "Contains metadata used by the 2021.3 Unity Editor.",
+      "category": "",
+      "type": "metadata",
+      "host": "editor",
+      "files": [
+        "manifest-overrides.json"
+      ],
+      "upmCi": {
+        "footprint": "8b4c3262822ea56fdb38692fb043f5a27fff5dc3"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/rm-remote-upm-package-metadata",
+        "revision": "f78f6bf8be79e8a02a0099e52a59a7fe3dff0e4b"
+      },
+      "dist": {
+        "shasum": "63a078384b76d3a496e32f0c6796b75a9fd2de23",
+        "tarball": "https://download.packages.unity.com/com.unity.package-manager.metadata-2021.3/-/com.unity.package-manager.metadata-2021.3-0.0.7.tgz"
+      }
+    },
+    "0.0.6": {
+      "name": "com.unity.package-manager.metadata-2021.3",
+      "version": "0.0.6",
+      "description": "Contains metadata used by the 2021.3 Unity Editor.",
+      "category": "",
+      "type": "metadata",
+      "host": "editor",
+      "files": [
+        "manifest-overrides.json"
+      ],
+      "upmCi": {
+        "footprint": "a79e92f22bb084baf48913aabc5e35878bba01a0"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/rm-remote-upm-package-metadata",
+        "revision": "ce6564a1fac5f9081d5d2a4fd3afcfbd88d6e66e"
+      },
+      "dist": {
+        "shasum": "b38b6520076a63a86ec856552d1c6b72eae3ce08",
+        "tarball": "https://download.packages.unity.com/com.unity.package-manager.metadata-2021.3/-/com.unity.package-manager.metadata-2021.3-0.0.6.tgz"
+      }
+    },
+    "0.0.5": {
+      "name": "com.unity.package-manager.metadata-2021.3",
+      "version": "0.0.5",
+      "description": "Contains metadata used by the 2021.3 Unity Editor.",
+      "category": "",
+      "type": "metadata",
+      "host": "editor",
+      "files": [
+        "manifest-overrides.json"
+      ],
+      "upmCi": {
+        "footprint": "153a2886980865e2daaf85b07cee3d29ef1a8605"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/rm-remote-upm-package-metadata",
+        "revision": "af219478658caaaf6217671a8d43d82ce72c5a3f"
+      },
+      "dist": {
+        "shasum": "d932e9807d7ca8cad857170af6b003e87119ff23",
+        "tarball": "https://download.packages.unity.com/com.unity.package-manager.metadata-2021.3/-/com.unity.package-manager.metadata-2021.3-0.0.5.tgz"
+      }
+    },
+    "0.0.3": {
+      "name": "com.unity.package-manager.metadata-2021.3",
+      "version": "0.0.3",
+      "description": "Contains metadata used by the 2021.3 Unity Editor.",
+      "category": "",
+      "type": "metadata",
+      "host": "editor",
+      "files": [
+        "manifest-overrides.json"
+      ],
+      "upmCi": {
+        "footprint": "35320fd3efbb074fd9862fffec1142340759b0fe"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/rm-remote-upm-package-metadata",
+        "revision": "1a785cc0f6f6ce48d8a0c7994c998ea82b5850bc"
+      },
+      "dist": {
+        "shasum": "66f826c0c1d0d1b1c3e484581d38271487ef57dd",
+        "tarball": "https://download.packages.unity.com/com.unity.package-manager.metadata-2021.3/-/com.unity.package-manager.metadata-2021.3-0.0.3.tgz"
+      }
+    },
+    "0.0.2": {
+      "name": "com.unity.package-manager.metadata-2021.3",
+      "version": "0.0.2",
+      "description": "Contains metadata used by the 2021.3 Unity Editor.",
+      "category": "",
+      "type": "metadata",
+      "host": "editor",
+      "files": [
+        "manifest-overrides.json"
+      ],
+      "upmCi": {
+        "footprint": "11f5b69226ee4028e9fdc608bdd3463469fb63b1"
+      },
+      "repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/rm-remote-upm-package-metadata",
+        "revision": "f03dc4b6b7af341005d81aa9d4539acd1776ff46"
+      },
+      "dist": {
+        "shasum": "af754dc53b32497b4c0da71d7900242850aa1d5c",
+        "tarball": "https://download.packages.unity.com/com.unity.package-manager.metadata-2021.3/-/com.unity.package-manager.metadata-2021.3-0.0.2.tgz"
+      }
+    }
+  },
+  "etag": "\"4b5255ddd6bae7f75d8cef68849b684b\"",
+  "provider": "upm",
+  "name": "com.unity.package-manager.metadata-2021.3",
+  "description": "Contains metadata used by the 2021.3 Unity Editor.",
+  "category": "",
+  "_id": "com.unity.package-manager.metadata-2021.3",
+  "time": {
+    "0.0.12": "2023-04-26T20:47:36Z",
+    "0.0.10": "2023-04-24T12:15:13Z",
+    "0.0.9": "2023-03-16T16:41:28Z",
+    "0.0.8": "2023-03-13T17:07:18Z",
+    "0.0.7": "2023-03-09T17:34:47Z",
+    "0.0.6": "2023-03-07T11:06:06Z",
+    "0.0.5": "2023-01-11T12:16:23Z",
+    "0.0.3": "2022-12-06T15:34:18Z",
+    "0.0.2": "2022-10-06T10:34:47Z"
+  }
+}

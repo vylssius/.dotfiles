@@ -14,3 +14,5 @@
 [INFO  Sat 06 May 2023 04:23:20 PM CDT] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=rust-analyzer)
 [INFO  Sat 06 May 2023 05:42:13 PM CDT] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=jdtls) {}
 [INFO  Sat 06 May 2023 05:42:18 PM CDT] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=jdtls)
+[INFO  Sun 07 May 2023 12:30:48 AM CDT] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=csharp-language-server) {}
+[INFO  Sun 07 May 2023 12:30:53 AM CDT] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=csharp-language-server)

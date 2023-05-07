@@ -445,3 +445,70 @@
 {"timestamp":"2023-05-07T03:59:47.776Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
 {"timestamp":"2023-05-07T03:59:47.776Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
 {"timestamp":"2023-05-07T04:05:46.117Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T04:23:19.284Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T04:52:13.347Z","level":"info","moduleName":"secondAppInstanceBootstrap","message":"[ 'Second instance of the Hub was started. Closing..' ]"}
+{"timestamp":"2023-05-07T04:52:38.195Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T04:52:38.195Z","level":"error","moduleName":"Templates","message":"[ \"Manifest was corrupted, dependencies are unknown, forced to reset manifest.json: ENOENT: no such file or directory, open '/home/vylssius/.config/unityhub/Templates/manifest.json'\" ]"}
+{"timestamp":"2023-05-07T04:52:38.218Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T04:52:38.218Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T04:52:38.218Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T04:52:38.237Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T04:52:38.237Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T04:53:03.621Z","level":"warn","moduleName":"FeatureFlagsService","message":"[ 'Error on stream connection: Read timeout, received no data in 300000ms, assuming connection is dead, will continue retrying every 1000 milliseconds.' ]"}
+{"timestamp":"2023-05-07T04:53:04.213Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T04:53:04.234Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T04:53:04.234Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T04:55:38.206Z","level":"warn","moduleName":"EditorPrefLinux","message":"[ [Error: ENOENT: no such file or directory, open '/home/vylssius/.local/share/unity3d/prefs'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/home/vylssius/.local/share/unity3d/prefs' } ]"}
+{"timestamp":"2023-05-07T04:55:38.207Z","level":"warn","moduleName":"EditorPrefLinux","message":"[ [Error: ENOENT: no such file or directory, open '/home/vylssius/.local/share/unity3d/prefs'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/home/vylssius/.local/share/unity3d/prefs' } ]"}
+{"timestamp":"2023-05-07T04:55:38.207Z","level":"error","moduleName":"LocalProjectService","message":"[ 'Error while adding project: {}' ]"}
+{"timestamp":"2023-05-07T04:55:42.253Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '1 MISSING editor releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX', limit: 25, orderBy: 'RELEASE_DATE_DESC', version: '2021.3.17f1', versionYear: '2021' } ]"}
+{"timestamp":"2023-05-07T04:55:42.253Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '25 NEAREST editor releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX', limit: 25, orderBy: 'RELEASE_DATE_DESC', version: '2021.3.17f1', versionYear: '2021' } ]"}
+{"timestamp":"2023-05-07T04:55:55.192Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-05-07T04:55:55.207Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-05-07T04:55:55.210Z","level":"info","moduleName":"LocalProjectService","message":"[ 'openProject projectPath: /home/vylssius/Unity/UnityProjects/Ant-Simulation-main, current editor:', undefined ]"}
+{"timestamp":"2023-05-07T04:55:55.211Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-05-07T04:55:55.223Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-05-07T04:55:55.224Z","level":"info","moduleName":"LaunchProcess","message":"[ 'Spawning editor instance with command: ', '/home/vylssius/Unity/Hub/Editor/2021.3.24f1/Editor/Unity', ', and arguments: ', [ '-projectpath', '/home/vylssius/Unity/UnityProjects/Ant-Simulation-main', '-useHub', '-hubIPC', '-cloudEnvironment', 'production', '-licensingIpc', 'LicenseClient-vylssius', '-hubSessionId', 'd5627b99-416a-44b3-9b85-972bef11e9f8', '-accessToken', 'x7l8SQeasEVKjMSNxwszG4GcIGO1eFDqOIlyVIvk9dc002f' ] ]"}
+{"timestamp":"2023-05-07T04:55:55.232Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T04:55:55.252Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T04:55:55.252Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T04:55:55.252Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T04:55:55.270Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T04:55:55.270Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T04:55:55.618Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ 'clearSpecificEditors cleared the adapter' ]"}
+{"timestamp":"2023-05-07T04:56:04.216Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T04:56:04.237Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T04:56:04.237Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T04:56:51.030Z","level":"info","moduleName":"UnityIPCServer","message":"[ 'client process has connected to /tmp/Unity-hubIPCService.sock!' ]"}
+{"timestamp":"2023-05-07T04:56:51.218Z","level":"info","moduleName":"IPCServer:Auth","message":"[ 'Request from Editor: Connect info.' ]"}
+{"timestamp":"2023-05-07T04:56:51.418Z","level":"info","moduleName":"IPCServer:Auth","message":"[ 'Request from Editor: User info.' ]"}
+{"timestamp":"2023-05-07T05:02:02.482Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T05:17:02.510Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T05:17:03.807Z","level":"info","moduleName":"LocalConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]"}
+{"timestamp":"2023-05-07T05:32:03.508Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T05:47:03.640Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T05:50:04.596Z","level":"info","moduleName":"Authentification Service","message":"[ 'Access token is expired, attempting to get a new one with refresh token' ]"}
+{"timestamp":"2023-05-07T05:50:04.596Z","level":"info","moduleName":"Authentification Service","message":"[ 'logging in with the refresh token' ]"}
+{"timestamp":"2023-05-07T05:50:04.596Z","level":"info","moduleName":"Authentification Service","message":"[ 'refreshing the tokens with refresh token' ]"}
+{"timestamp":"2023-05-07T05:50:05.498Z","level":"info","moduleName":"Authentification Service","message":"[ 'Fetching user info from the identity provider using access token' ]"}
+{"timestamp":"2023-05-07T05:50:06.400Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-05-07T05:50:06.402Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'setAccessToken: Setting access token' ]"}
+{"timestamp":"2023-05-07T05:50:06.403Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T05:50:06.412Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-05-07T05:50:06.415Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'activateAllEntitlementBasedLicenses: Activating all entitlement based licenses' ]"}
+{"timestamp":"2023-05-07T05:50:06.421Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T05:50:06.421Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T05:50:06.730Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'Set identity to', 'mdlBqTUEs4gAjj9dUERb5Wm0WK7iRv4PDcchGbDBo4w=' ]"}
+{"timestamp":"2023-05-07T05:50:07.254Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully activated all entitlement based licenses:[]' ]"}
+{"timestamp":"2023-05-07T05:50:07.254Z","level":"info","moduleName":"LicenseService","message":"[ 'activateAllEntitlementBasedLicenses: finished' ]"}
+{"timestamp":"2023-05-07T05:50:07.255Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T05:50:07.270Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T05:50:07.270Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T05:50:07.271Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-05-07T05:50:07.282Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-05-07T06:02:03.510Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T06:17:03.467Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T06:17:04.721Z","level":"info","moduleName":"LocalConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]"}
+{"timestamp":"2023-05-07T06:32:03.563Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T06:35:26.100Z","level":"info","moduleName":"UnityIPCServer","message":"[ 'client process has disconnected from /tmp/Unity-hubIPCService.sock' ]"}
+{"timestamp":"2023-05-07T06:35:26.133Z","level":"info","moduleName":"LaunchProcess","message":"[ 'child process exited with code 0' ]"}

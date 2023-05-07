@@ -1,0 +1,47 @@
+{
+    "schemaVersion": 4,
+    "packages": {
+        "com.unity.ads": {
+            "recommendedVersion": "4.3.0"
+        },
+        "com.unity.services.mediation": {
+            "isDiscoverable": false
+        },
+        "com.unity.services.levelplay": {
+            "isDiscoverable": true,
+            "recommendedVersion": "1.0.0"
+        },
+        "com.unity.analytics": {
+            "isDiscoverable": false
+        },
+        "com.unity.services.authentication": {
+            "recommendedVersion": "2.4.0"
+        },
+        "com.unity.services.analytics": {
+            "recommendedVersion": "4.4.0"
+        },
+        "com.unity.services.core": {
+            "recommendedVersion": "1.8.1"
+        },
+        "com.unity.purchasing": {
+            "recommendedVersion": "4.7.0"
+        },
+        "com.unity.services.economy": {
+            "recommendedVersion": "3.1.2"
+        },
+        "com.unity.services.cloudcode": {
+            "recommendedVersion": "2.3.1"
+        },
+        "com.unity.services.deployment": {
+            "recommendedVersion": "1.0.0",
+            "isDiscoverable": true
+        },
+        "com.unity.services.deployment.api": {
+            "recommendedVersion": "1.0.0"
+        },
+        "com.unity.services.ugc": {
+            "recommendedVersion": "1.0.0-pre.10",
+            "isDiscoverable": true
+        }
+    }
+}

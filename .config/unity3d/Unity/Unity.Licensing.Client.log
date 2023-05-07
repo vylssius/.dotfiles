@@ -319,3 +319,132 @@
 2023-05-07 03:59:47.775 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
 2023-05-07 03:59:47.775 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000383
 2023-05-07 03:59:47.775 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-72 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 04:23:52.578 - [ 11829] - [    30] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 00:30:00
+2023-05-07 04:52:38.216 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:52:38.216 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:52:38.216 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:52:38.216 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000343
+2023-05-07 04:52:38.216 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-73 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 04:52:38.236 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:52:38.236 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:52:38.236 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:52:38.236 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000313
+2023-05-07 04:52:38.237 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-74 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 04:53:04.233 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:53:04.234 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:53:04.234 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:53:04.234 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000362
+2023-05-07 04:53:04.234 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-75 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 04:55:55.206 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-76 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 04:55:55.222 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-77 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 04:55:55.250 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:55:55.251 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:55:55.251 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:55:55.251 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000349
+2023-05-07 04:55:55.251 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-78 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 04:55:55.269 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:55:55.269 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:55:55.269 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:55:55.269 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000464
+2023-05-07 04:55:55.269 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-79 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 04:55:55.346 - [ 11829] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #3)
+2023-05-07 04:55:55.348 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] new pipe session: ac59854aae784f09b65f22e1bf7f1a9a
+2023-05-07 04:55:55.349 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] A new client is connecting (pipe #2)
+2023-05-07 04:55:55.349 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Start accepting requests
+2023-05-07 04:55:55.355 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.Controllers.HandshakeController] Received handshake from: UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12)
+2023-05-07 04:55:55.356 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-1 | Sending HandshakeResponse for request HandshakeRequest from UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12) [200]:  Handshake successful
+2023-05-07 04:55:55.357 - [ 11829] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Waiting for a connection (pipe #2)
+2023-05-07 04:55:55.357 - [ 11829] - [    35] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] A new client is connecting (pipe #1)
+2023-05-07 04:55:55.369 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.Controllers.AccessTokenController] Got access token (expires in 31622399 seconds)
+2023-05-07 04:55:55.369 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-2 | Sending AccessTokenResponse for request AccessTokenRequest from UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12) [200]:  (null)
+2023-05-07 04:55:55.387 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] [4d267c8eea7e422685f4f86497b1eeb0] Starting Ulf transaction for UPDATE operation
+2023-05-07 04:55:55.398 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Attempting to contact genesis update license api
+2023-05-07 04:55:55.798 - [ 11829] - [    35] - WARN  - [GenesisClient.HttpRequests] Handled response: [404 | Not Found | {
+  "type" : "https://httpstatuses.com/404",
+  "title" : "Invalid context",
+  "status" : 404,
+  "errorCode" : 404005,
+  "detail" : "Machine bindings in context was not registered before",
+  "instance" : "/licenses/v1/context",
+  "results" : [ ]
+}] from request: [POST | https://license.unity3d.com/licenses/v1/context | {"context":{"DeviceName":"helios","DeviceModel":"PC","PhysicalMemoryMB":"31930","SystemLanguageISO":"en_US","ProcessorCount":"12","ProcessorType":"Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz","OperatingSystem":"Linux 6.3 Arch Linux  64bit","OperatingSystemNumeric":"603","Legacy.MachineBinding1":"db3009a28d1a486eb9c55e7bac0133d4","Legacy.MachineBinding2":"db3009a28d1a486eb9c55e7bac0133d4","EnvironmentUser":"vylssius","EnvironmentDomain":"helios","EnvironmentHostname":"helios"}}]
+2023-05-07 04:55:56.884 - [ 11829] - [    28] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] [4d267c8eea7e422685f4f86497b1eeb0] ULF license updated successfully
+2023-05-07 04:55:56.890 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:55:56.890 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:55:56.890 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:55:56.890 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000505
+2023-05-07 04:55:56.892 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] OnEntitlementResolverUpdated, will restart timer
+2023-05-07 04:55:56.893 - [ 11829] - [    24] - ERROR - [Unity.Licensing.Client.Communication.Controllers.UpdateLicenseController] assigned update failed. Details: No license activation found for this computer.
+2023-05-07 04:55:56.893 - [ 11829] - [    28] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 00:30:00
+2023-05-07 04:55:56.893 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-3 | Sending UpdateLicenseResponse for request UpdateLicenseRequest from UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12) [200]:  Licenses updated.
+2023-05-07 04:55:56.904 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-4 | Sending EntitlementsResponse for request EntitlementsRequest from UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 04:56:04.237 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:56:04.237 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:56:04.237 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 04:56:04.237 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000345
+2023-05-07 04:56:04.237 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-80 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 04:56:41.042 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-5 | Sending EntitlementsResponse for request EntitlementsRequest from UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 04:56:42.260 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2023-05-07 04:56:42.261 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-6 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12) [200]:  Found 0 entitlement groups and 37 free entitlements matching requested entitlement ids
+2023-05-07 04:56:42.459 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-7 | Sending EntitlementsResponse for request EntitlementsRequest from UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 04:56:43.019 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-8 | Sending EntitlementsResponse for request EntitlementsRequest from UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 04:56:50.422 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-9 | Sending EntitlementsResponse for request EntitlementsRequest from UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 04:56:52.055 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.Controllers.AccessTokenController] Got access token (expires in 31622399 seconds)
+2023-05-07 04:56:52.055 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-10 | Sending AccessTokenResponse for request AccessTokenRequest from UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12) [200]:  (null)
+2023-05-07 04:58:09.780 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-11 | Sending EntitlementsResponse for request EntitlementsRequest from UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 04:58:09.799 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-12 | Sending EntitlementsResponse for request EntitlementsRequest from UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 05:08:05.892 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-13 | Sending EntitlementsResponse for request EntitlementsRequest from UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 05:08:05.911 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-14 | Sending EntitlementsResponse for request EntitlementsRequest from UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 05:17:04.104 - [ 11829] - [    19] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutConfigPeriodicUpdateService] Syncing OptOut status...
+2023-05-07 05:17:04.104 - [ 11829] - [    19] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutStatusProvider] Getting OptOut status...
+2023-05-07 05:17:04.449 - [ 11829] - [    33] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Downloaded remote config from: "https://public-cdn.cloud.unity3d.com/config/production"
+2023-05-07 05:17:04.449 - [ 11829] - [    33] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Unity remote config is updated: "/home/vylssius/.config/unity3d/Unity/config/production.json"
+2023-05-07 05:17:04.897 - [ 11829] - [    33] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutConfigPeriodicUpdateService] Successfully set OptOut config value to False
+2023-05-07 05:25:57.854 - [ 11829] - [    22] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 00:30:00
+2023-05-07 05:50:06.412 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-81 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 05:50:06.415 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Controllers.AccessTokenController] Got access token (expires in 30758400 seconds)
+2023-05-07 05:50:06.415 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-82 | Sending AccessTokenResponse for request AccessTokenRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  (null)
+2023-05-07 05:50:06.420 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 05:50:06.421 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 05:50:06.421 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 05:50:06.421 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000416
+2023-05-07 05:50:06.421 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-83 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 05:50:07.155 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Attempting to contact genesis update license api
+2023-05-07 05:50:07.248 - [ 11829] - [    29] - WARN  - [GenesisClient.HttpRequests] Handled response: [404 | Not Found | {
+  "type" : "https://httpstatuses.com/404",
+  "title" : "Invalid context",
+  "status" : 404,
+  "errorCode" : 404005,
+  "detail" : "Machine bindings in context was not registered before",
+  "instance" : "/licenses/v1/context",
+  "results" : [ ]
+}] from request: [POST | https://license.unity3d.com/licenses/v1/context | {"context":{"DeviceName":"helios","DeviceModel":"PC","PhysicalMemoryMB":"31930","SystemLanguageISO":"en_US","ProcessorCount":"12","ProcessorType":"Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz","OperatingSystem":"Linux 6.3 Arch Linux  64bit","OperatingSystemNumeric":"603","Legacy.MachineBinding1":"db3009a28d1a486eb9c55e7bac0133d4","Legacy.MachineBinding2":"db3009a28d1a486eb9c55e7bac0133d4","EnvironmentUser":"vylssius","EnvironmentDomain":"helios","EnvironmentHostname":"helios"}}]
+2023-05-07 05:50:07.253 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 05:50:07.253 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 05:50:07.253 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 05:50:07.253 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000297
+2023-05-07 05:50:07.253 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-84 | Sending ActivationManagementResponse for request ActivationManagementRequest from Hub 3.4.2 (LocalIPC/1.12) [207]:  Successfully processed activation management call
+2023-05-07 05:50:07.269 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 05:50:07.270 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 05:50:07.270 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 05:50:07.270 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000291
+2023-05-07 05:50:07.270 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-85 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 05:50:07.281 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-86 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 05:55:57.858 - [ 11829] - [     4] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 00:30:00
+2023-05-07 06:17:05.449 - [ 11829] - [    21] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Downloaded remote config from: "https://public-cdn.cloud.unity3d.com/config/production"
+2023-05-07 06:17:05.449 - [ 11829] - [    21] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Unity remote config is updated: "/home/vylssius/.config/unity3d/Unity/config/production.json"
+2023-05-07 06:17:05.860 - [ 11829] - [    37] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutConfigPeriodicUpdateService] Syncing OptOut status...
+2023-05-07 06:17:05.860 - [ 11829] - [    37] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutStatusProvider] Getting OptOut status...
+2023-05-07 06:17:06.432 - [ 11829] - [    29] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutConfigPeriodicUpdateService] Successfully set OptOut config value to False
+2023-05-07 06:24:51.861 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.Controllers.AccessTokenController] Got access token (expires in 31622399 seconds)
+2023-05-07 06:24:51.861 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-15 | Sending AccessTokenResponse for request AccessTokenRequest from UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12) [200]:  (null)
+2023-05-07 06:24:51.965 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-16 | Sending EntitlementsResponse for request EntitlementsRequest from UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 06:24:52.369 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.Controllers.AccessTokenController] Got access token (expires in 31622399 seconds)
+2023-05-07 06:24:52.369 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-17 | Sending AccessTokenResponse for request AccessTokenRequest from UnityEditor/2021.3.24f1 (Linux; U; Linux 6.0; en_US) (LocalIPC/1.12) [200]:  (null)
+2023-05-07 06:25:57.858 - [ 11829] - [    39] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 00:30:00
+2023-05-07 06:35:26.041 - [ 11829] - [    26] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Connection closed (pipe #1)
+2023-05-07 06:35:26.041 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Detected client disconnect
+2023-05-07 06:35:26.041 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] End accepting requests
+2023-05-07 06:35:26.041 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Connection closed (pipe #2)
+2023-05-07 06:35:26.043 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Disposing named pipe
+2023-05-07 06:35:26.043 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Disposing named pipe
