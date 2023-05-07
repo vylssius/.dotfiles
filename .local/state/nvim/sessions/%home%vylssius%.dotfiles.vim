@@ -13,7 +13,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +4 .gitignore
+badd +5 .gitignore
 argglobal
 %argdel
 $argadd .gitignore
