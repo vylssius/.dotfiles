@@ -264,3 +264,183 @@
 {"timestamp":"2023-05-07T03:52:12.360Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 52586582-dcea-4ee9-a0e6-11f2c4fdb90c, Current State: VALIDATION_PASSED' ]"}
 {"timestamp":"2023-05-07T03:52:12.361Z","level":"info","moduleName":"Download Item 52586582-dcea-4ee9-a0e6-11f2c4fdb90c","message":"[ 'Transition to state downloading' ]"}
 {"timestamp":"2023-05-07T03:52:12.363Z","level":"info","moduleName":"Node Downloader for 52586582-dcea-4ee9-a0e6-11f2c4fdb90c","message":"[ 'Download started' ]"}
+{"timestamp":"2023-05-07T03:52:47.754Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:52:47.788Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:52:47.788Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:53:02.083Z","level":"info","moduleName":"Download Item 52586582-dcea-4ee9-a0e6-11f2c4fdb90c","message":"[ 'Download Finished. Wrote 337068664 bytes on the disk.' ]"}
+{"timestamp":"2023-05-07T03:53:02.086Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 52586582-dcea-4ee9-a0e6-11f2c4fdb90c, Exiting from State: COMPLETED' ]"}
+{"timestamp":"2023-05-07T03:53:02.086Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 52586582-dcea-4ee9-a0e6-11f2c4fdb90c, Filename: UnityDocumentation.zip \\n    Current State: COMPLETED, exiting the state machine.' ]"}
+{"timestamp":"2023-05-07T03:53:02.087Z","level":"info","moduleName":"Download Item 52586582-dcea-4ee9-a0e6-11f2c4fdb90c","message":"[ 'Transition to state download_finished' ]"}
+{"timestamp":"2023-05-07T03:53:02.087Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 52586582-dcea-4ee9-a0e6-11f2c4fdb90c, Exiting from State: COMPLETED' ]"}
+{"timestamp":"2023-05-07T03:53:02.091Z","level":"error","moduleName":"Installation Manager","message":"[\n  'Parent editor location not found in the available editors list. Install path to be determined when pending editor install is complete.',\n  Error: No editor installed. Could not be retrieved for criteria: {\"version\":\"2021.3.24f1\",\"architecture\":\"x86_64\"}\n      at EditorManager.getEditor (/opt/unityhub/resources/app.asar/build/main/services/editorManager/editorManager.js:234:25)\n      at InstallationManager.prepareValidationStrategy (/opt/unityhub/resources/app.asar/build/main/services/installationEngine/InstallationManager.js:403:58)\n      at InstallationManager.queue (/opt/unityhub/resources/app.asar/build/main/services/installationEngine/InstallationManager.js:53:42)\n      at DownloadManagerUtilities.addToInstalls (/opt/unityhub/resources/app.asar/build/main/services/downloadEngine/utilities/DownloadManagerUtilities.js:115:46)\n      at onStateChangeHandler (/opt/unityhub/resources/app.asar/build/main/services/downloadEngine/downloadItemFactories/createModuleDownloadItem.js:68:52)\n      at DownloadItem.notifyParent (/opt/unityhub/resources/app.asar/build/main/services/downloadEngine/DownloadManager.js:248:17)\n      at DownloadItem.onFinish (/opt/unityhub/resources/app.asar/build/main/services/downloadEngine/DownloadItem.js:220:14)\n      at Interpreter.exec (/opt/unityhub/resources/app.asar/node_modules/xstate/lib/interpreter.js:770:16)\n      at Interpreter.execute (/opt/unityhub/resources/app.asar/node_modules/xstate/lib/interpreter.js:204:14)\n      at Interpreter.update (/opt/unityhub/resources/app.asar/node_modules/xstate/lib/interpreter.js:230:12) {\n    code: 0\n  }\n]"}
+{"timestamp":"2023-05-07T03:53:02.092Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:53:02.108Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:53:02.108Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:53:02.108Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:53:02.125Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:53:02.125Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:53:47.752Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:53:47.769Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:53:47.769Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:55:17.688Z","level":"info","moduleName":"Download Item 2021.3.24f1-x86_64","message":"[ 'Download Finished. Wrote 2508075544 bytes on the disk.' ]"}
+{"timestamp":"2023-05-07T03:55:17.691Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 2021.3.24f1-x86_64, Exiting from State: COMPLETED' ]"}
+{"timestamp":"2023-05-07T03:55:17.691Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 2021.3.24f1-x86_64, Filename: Unity-2021.3.24f1.tar.xz \\n    Current State: COMPLETED, exiting the state machine.' ]"}
+{"timestamp":"2023-05-07T03:55:17.691Z","level":"info","moduleName":"Download Item 2021.3.24f1-x86_64","message":"[ 'Transition to state download_finished' ]"}
+{"timestamp":"2023-05-07T03:55:17.691Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 2021.3.24f1-x86_64, Exiting from State: COMPLETED' ]"}
+{"timestamp":"2023-05-07T03:55:17.695Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:55:17.712Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:55:17.713Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:55:17.713Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:55:17.729Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:55:17.729Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:55:17.952Z","level":"info","moduleName":"Installation Manager","message":"[ 'Starting installer of 2021.3.24f1-x86_64' ]"}
+{"timestamp":"2023-05-07T03:55:17.953Z","level":"info","moduleName":"Installer: 2021.3.24f1-x86_64","message":"[ 'Starting the state machine of 2021.3.24f1-x86_64.' ]"}
+{"timestamp":"2023-05-07T03:55:17.953Z","level":"info","moduleName":"Installer: 2021.3.24f1-x86_64","message":"[ 'Entered State: install_validation' ]"}
+{"timestamp":"2023-05-07T03:55:17.954Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:55:17.955Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Install Validation Strategy...' ]"}
+{"timestamp":"2023-05-07T03:55:17.955Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating presence of an existing installation...' ]"}
+{"timestamp":"2023-05-07T03:55:17.955Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying installation type: EDITOR' ]"}
+{"timestamp":"2023-05-07T03:55:17.955Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying absence of an existing editor installation...' ]"}
+{"timestamp":"2023-05-07T03:55:17.956Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Existing Editor Installation Check: Passed' ]"}
+{"timestamp":"2023-05-07T03:55:17.956Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2023-05-07T03:55:17.957Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2023-05-07T03:55:17.957Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2023-05-07T03:55:17.957Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 2508075544 bytes / 2.34 GB...' ]"}
+{"timestamp":"2023-05-07T03:55:17.959Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating accessibility of installer...' ]"}
+{"timestamp":"2023-05-07T03:55:17.959Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying read and write accessibility to installer source path: /tmp/unityhub-69ddf7f0-ec8a-11ed-96ce-a114d17d1c88/Unity-2021.3.24f1.tar.xz' ]"}
+{"timestamp":"2023-05-07T03:55:17.959Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Installer Accessibility Check: Passed' ]"}
+{"timestamp":"2023-05-07T03:55:17.960Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2023-05-07T03:55:17.960Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2023-05-07T03:55:17.960Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2023-05-07T03:55:17.960Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Overall validation result: Passed' ]"}
+{"timestamp":"2023-05-07T03:55:17.960Z","level":"info","moduleName":"Installer: 2021.3.24f1-x86_64","message":"[ 'Exiting from State: Validation. Event: VALIDATION_PASSED' ]"}
+{"timestamp":"2023-05-07T03:55:17.961Z","level":"info","moduleName":"Installer: 2021.3.24f1-x86_64","message":"[ 'Transition to state \"installation\" on event \"VALIDATION_PASSED\"' ]"}
+{"timestamp":"2023-05-07T03:55:17.961Z","level":"info","moduleName":"Installer: 2021.3.24f1-x86_64","message":"[ 'Entered State: installation' ]"}
+{"timestamp":"2023-05-07T03:55:17.963Z","level":"info","moduleName":"EditorInstallerWorkflow (2021.3.24f1-x86_64)","message":"[ 'Starting the editor installation...' ]"}
+{"timestamp":"2023-05-07T03:55:17.972Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:55:17.972Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:55:17.973Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:55:17.992Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:55:17.992Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:55:47.753Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:55:47.770Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:55:47.770Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:56:44.717Z","level":"info","moduleName":"Installer:ReleaseFileIO","message":"[ 'read /home/vylssius/Unity/Hub/Editor/2021.3.24f1/modules.json' ]"}
+{"timestamp":"2023-05-07T03:56:44.719Z","level":"info","moduleName":"EditorInstallerWorkflow (2021.3.24f1-x86_64)","message":"[ 'Editor is successfully installed' ]"}
+{"timestamp":"2023-05-07T03:56:44.720Z","level":"info","moduleName":"Installer: 2021.3.24f1-x86_64","message":"[ 'Exiting from State: Installation. Event: COMPLETED' ]"}
+{"timestamp":"2023-05-07T03:56:44.720Z","level":"info","moduleName":"Installer: 2021.3.24f1-x86_64","message":"[ 'Transition to state \"install_finished\" on event \"COMPLETED\"' ]"}
+{"timestamp":"2023-05-07T03:56:44.720Z","level":"info","moduleName":"Installation Manager","message":"[ 'Update: install_finished' ]"}
+{"timestamp":"2023-05-07T03:56:44.720Z","level":"info","moduleName":"Installer: 2021.3.24f1-x86_64","message":"[ 'Entered State: install_finished' ]"}
+{"timestamp":"2023-05-07T03:56:44.721Z","level":"info","moduleName":"Installer: 2021.3.24f1-x86_64","message":"[ 'Exiting from State: Finished. Event: COMPLETED' ]"}
+{"timestamp":"2023-05-07T03:56:44.721Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:56:44.740Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:56:44.740Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:56:44.740Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:56:44.756Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:56:44.756Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:56:47.753Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:56:47.770Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:56:47.771Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:56:47.960Z","level":"info","moduleName":"Installation Manager","message":"[ 'Starting installer of webgl' ]"}
+{"timestamp":"2023-05-07T03:56:47.960Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Starting the state machine of webgl.' ]"}
+{"timestamp":"2023-05-07T03:56:47.960Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Entered State: install_validation' ]"}
+{"timestamp":"2023-05-07T03:56:47.960Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:56:47.961Z","level":"info","moduleName":"Installation Manager","message":"[ 'Starting installer of documentation' ]"}
+{"timestamp":"2023-05-07T03:56:47.961Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Starting the state machine of documentation.' ]"}
+{"timestamp":"2023-05-07T03:56:47.961Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Entered State: install_validation' ]"}
+{"timestamp":"2023-05-07T03:56:47.961Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:56:47.962Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Install Validation Strategy...' ]"}
+{"timestamp":"2023-05-07T03:56:47.962Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Install Validation Strategy...' ]"}
+{"timestamp":"2023-05-07T03:56:47.962Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating presence of an existing installation...' ]"}
+{"timestamp":"2023-05-07T03:56:47.962Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying installation type: EDITOR_MODULE' ]"}
+{"timestamp":"2023-05-07T03:56:47.963Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ \"Verifying the module destination... id: 'webgl', destination: /home/vylssius/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport\" ]"}
+{"timestamp":"2023-05-07T03:56:47.963Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating presence of an existing installation...' ]"}
+{"timestamp":"2023-05-07T03:56:47.963Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying installation type: EDITOR_MODULE' ]"}
+{"timestamp":"2023-05-07T03:56:47.963Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Skipping module destination check for whitelisted item: documentation' ]"}
+{"timestamp":"2023-05-07T03:56:47.963Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying selected value of module in modules.json at /home/vylssius/Unity/Hub/Editor/2021.3.24f1/modules.json' ]"}
+{"timestamp":"2023-05-07T03:56:47.964Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Editor Module Installation Destination Check: Passed' ]"}
+{"timestamp":"2023-05-07T03:56:47.964Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying selected value of module in modules.json at /home/vylssius/Unity/Hub/Editor/2021.3.24f1/modules.json' ]"}
+{"timestamp":"2023-05-07T03:56:47.964Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'modules.json Check: Passed' ]"}
+{"timestamp":"2023-05-07T03:56:47.965Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2023-05-07T03:56:47.965Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'modules.json Check: Passed' ]"}
+{"timestamp":"2023-05-07T03:56:47.965Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2023-05-07T03:56:47.965Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2023-05-07T03:56:47.965Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2023-05-07T03:56:47.966Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 388841968 bytes / 370.83 MB...' ]"}
+{"timestamp":"2023-05-07T03:56:47.968Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating accessibility of installer...' ]"}
+{"timestamp":"2023-05-07T03:56:47.968Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying read and write accessibility to installer source path: /tmp/unityhub-69e216a0-ec8a-11ed-96ce-a114d17d1c88/UnitySetup-WebGL-Support-for-Editor-2021.3.24f1.tar.xz' ]"}
+{"timestamp":"2023-05-07T03:56:47.968Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2023-05-07T03:56:47.968Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2023-05-07T03:56:47.968Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 337167543 bytes / 321.55 MB...' ]"}
+{"timestamp":"2023-05-07T03:56:47.969Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating accessibility of installer...' ]"}
+{"timestamp":"2023-05-07T03:56:47.969Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying read and write accessibility to installer source path: /tmp/unityhub-69e2d9f0-ec8a-11ed-96ce-a114d17d1c88/UnityDocumentation.zip' ]"}
+{"timestamp":"2023-05-07T03:56:47.969Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Installer Accessibility Check: Passed' ]"}
+{"timestamp":"2023-05-07T03:56:47.970Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2023-05-07T03:56:47.970Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2023-05-07T03:56:47.970Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2023-05-07T03:56:47.970Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Overall validation result: Passed' ]"}
+{"timestamp":"2023-05-07T03:56:47.970Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Exiting from State: Validation. Event: VALIDATION_PASSED' ]"}
+{"timestamp":"2023-05-07T03:56:47.970Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Transition to state \"installation\" on event \"VALIDATION_PASSED\"' ]"}
+{"timestamp":"2023-05-07T03:56:47.970Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Entered State: installation' ]"}
+{"timestamp":"2023-05-07T03:56:47.971Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Installer Accessibility Check: Passed' ]"}
+{"timestamp":"2023-05-07T03:56:47.971Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2023-05-07T03:56:47.971Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2023-05-07T03:56:47.971Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2023-05-07T03:56:47.971Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Overall validation result: Passed' ]"}
+{"timestamp":"2023-05-07T03:56:47.971Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Exiting from State: Validation. Event: VALIDATION_PASSED' ]"}
+{"timestamp":"2023-05-07T03:56:47.972Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Transition to state \"installation\" on event \"VALIDATION_PASSED\"' ]"}
+{"timestamp":"2023-05-07T03:56:47.972Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Entered State: installation' ]"}
+{"timestamp":"2023-05-07T03:56:47.980Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:56:47.980Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:56:47.980Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:56:47.988Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:56:47.988Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:56:47.988Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:56:47.998Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:56:47.998Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:56:48.005Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:56:48.005Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:57:00.808Z","level":"info","moduleName":"Installer:ReleaseFileIO","message":"[ 'read /home/vylssius/Unity/Hub/Editor/2021.3.24f1/modules.json' ]"}
+{"timestamp":"2023-05-07T03:57:00.811Z","level":"info","moduleName":"ModuleInstallerWorkflow (documentation)","message":"[ 'Module documentation is successfully installed' ]"}
+{"timestamp":"2023-05-07T03:57:00.813Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Exiting from State: Installation. Event: COMPLETED' ]"}
+{"timestamp":"2023-05-07T03:57:00.813Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Transition to state \"install_finished\" on event \"COMPLETED\"' ]"}
+{"timestamp":"2023-05-07T03:57:00.813Z","level":"info","moduleName":"Installation Manager","message":"[ 'Update: install_finished' ]"}
+{"timestamp":"2023-05-07T03:57:00.814Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Entered State: install_finished' ]"}
+{"timestamp":"2023-05-07T03:57:00.814Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Exiting from State: Finished. Event: COMPLETED' ]"}
+{"timestamp":"2023-05-07T03:57:00.815Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:57:00.832Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:57:00.832Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:57:00.832Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:57:00.848Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:57:00.848Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:57:14.937Z","level":"info","moduleName":"Installer:ReleaseFileIO","message":"[ 'read /home/vylssius/Unity/Hub/Editor/2021.3.24f1/modules.json' ]"}
+{"timestamp":"2023-05-07T03:57:14.938Z","level":"info","moduleName":"ModuleInstallerWorkflow (webgl)","message":"[ 'Module webgl is successfully installed' ]"}
+{"timestamp":"2023-05-07T03:57:14.938Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Exiting from State: Installation. Event: COMPLETED' ]"}
+{"timestamp":"2023-05-07T03:57:14.938Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Transition to state \"install_finished\" on event \"COMPLETED\"' ]"}
+{"timestamp":"2023-05-07T03:57:14.938Z","level":"info","moduleName":"Installation Manager","message":"[ 'Update: install_finished' ]"}
+{"timestamp":"2023-05-07T03:57:14.938Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Entered State: install_finished' ]"}
+{"timestamp":"2023-05-07T03:57:14.938Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Exiting from State: Finished. Event: COMPLETED' ]"}
+{"timestamp":"2023-05-07T03:57:14.939Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:57:14.955Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:57:14.955Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:57:14.955Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:57:14.972Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:57:14.972Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:57:47.756Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:57:47.777Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:57:47.778Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:59:42.757Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:59:42.774Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:59:42.774Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:59:42.774Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:59:42.793Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:59:42.793Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:59:43.350Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:59:43.369Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:59:43.369Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:59:43.369Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:59:43.387Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:59:43.387Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:59:47.755Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T03:59:47.776Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T03:59:47.776Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
