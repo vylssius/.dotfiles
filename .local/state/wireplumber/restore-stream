@@ -1,9 +1,0 @@
-[restore-stream]
-Output/Audio:application.name:PipeWire\sALSA\s\obreakout\c:channelMap=
-Output/Audio:application.name:PipeWire\sALSA\s\obreakout\c:channelVolumes=1.0;1.0;
-Output/Audio:application.name:PipeWire\sALSA\s\obreakout\c:mute=false
-Output/Audio:application.name:PipeWire\sALSA\s\obreakout\c:volume=1.0
-Output/Audio:application.name:PipeWire\sALSA\s\okitty\c:channelMap=FL;FR;
-Output/Audio:application.name:PipeWire\sALSA\s\okitty\c:channelVolumes=1.0;1.0;
-Output/Audio:application.name:PipeWire\sALSA\s\okitty\c:mute=false
-Output/Audio:application.name:PipeWire\sALSA\s\okitty\c:volume=1.0
