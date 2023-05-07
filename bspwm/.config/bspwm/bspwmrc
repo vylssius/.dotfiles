@@ -45,5 +45,6 @@ bspc rule -a brave-browser desktop="^2"
 setxkbmap us -variant colemak
 setxkbmap -option "caps:backspace"
 setxkbmap -option "shift:both_capslock"
+~/.config/polybar/forest/scripts/pywal.sh ~/wallpapers/wallhaven-9mjoy1.png
 ~/.config/polybar/forest/scripts/styles.sh --dark
 ~/.config/polybar/launch.sh --forest
