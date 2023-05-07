@@ -512,3 +512,36 @@
 {"timestamp":"2023-05-07T06:32:03.563Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
 {"timestamp":"2023-05-07T06:35:26.100Z","level":"info","moduleName":"UnityIPCServer","message":"[ 'client process has disconnected from /tmp/Unity-hubIPCService.sock' ]"}
 {"timestamp":"2023-05-07T06:35:26.133Z","level":"info","moduleName":"LaunchProcess","message":"[ 'child process exited with code 0' ]"}
+{"timestamp":"2023-05-07T06:47:04.509Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T07:02:03.519Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T07:17:03.481Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T07:17:04.919Z","level":"info","moduleName":"LocalConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]"}
+{"timestamp":"2023-05-07T07:32:03.500Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T07:47:03.510Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T07:49:33.498Z","level":"info","moduleName":"Authentification Service","message":"[ 'Access token is expired, attempting to get a new one with refresh token' ]"}
+{"timestamp":"2023-05-07T07:49:33.499Z","level":"info","moduleName":"Authentification Service","message":"[ 'logging in with the refresh token' ]"}
+{"timestamp":"2023-05-07T07:49:33.499Z","level":"info","moduleName":"Authentification Service","message":"[ 'refreshing the tokens with refresh token' ]"}
+{"timestamp":"2023-05-07T07:49:34.224Z","level":"info","moduleName":"Authentification Service","message":"[ 'Fetching user info from the identity provider using access token' ]"}
+{"timestamp":"2023-05-07T07:49:34.530Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-05-07T07:49:34.534Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'setAccessToken: Setting access token' ]"}
+{"timestamp":"2023-05-07T07:49:34.544Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-05-07T07:49:34.549Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T07:49:34.550Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'activateAllEntitlementBasedLicenses: Activating all entitlement based licenses' ]"}
+{"timestamp":"2023-05-07T07:49:34.571Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T07:49:34.571Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T07:49:34.728Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'Set identity to', 'mdlBqTUEs4gAjj9dUERb5Wm0WK7iRv4PDcchGbDBo4w=' ]"}
+{"timestamp":"2023-05-07T07:49:35.319Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully activated all entitlement based licenses:[]' ]"}
+{"timestamp":"2023-05-07T07:49:35.319Z","level":"info","moduleName":"LicenseService","message":"[ 'activateAllEntitlementBasedLicenses: finished' ]"}
+{"timestamp":"2023-05-07T07:49:35.322Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T07:49:35.353Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-05-07T07:49:35.353Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-05-07T07:49:35.355Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-05-07T07:49:35.368Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-05-07T08:02:03.498Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T08:17:03.528Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T08:17:04.782Z","level":"info","moduleName":"LocalConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]"}
+{"timestamp":"2023-05-07T08:32:03.551Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T08:47:03.498Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T09:02:03.680Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T09:17:03.530Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-05-07T09:17:04.760Z","level":"info","moduleName":"LocalConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]"}

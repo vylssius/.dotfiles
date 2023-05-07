@@ -448,3 +448,52 @@
 2023-05-07 06:35:26.041 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Connection closed (pipe #2)
 2023-05-07 06:35:26.043 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Disposing named pipe
 2023-05-07 06:35:26.043 - [ 11829] - [    24] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Disposing named pipe
+2023-05-07 06:55:57.857 - [ 11829] - [    11] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 00:30:00
+2023-05-07 07:17:05.578 - [ 11829] - [    21] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Downloaded remote config from: "https://public-cdn.cloud.unity3d.com/config/production"
+2023-05-07 07:17:05.579 - [ 11829] - [    21] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Unity remote config is updated: "/home/vylssius/.config/unity3d/Unity/config/production.json"
+2023-05-07 07:17:06.433 - [ 11829] - [    42] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutConfigPeriodicUpdateService] Syncing OptOut status...
+2023-05-07 07:17:06.433 - [ 11829] - [    42] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutStatusProvider] Getting OptOut status...
+2023-05-07 07:17:07.040 - [ 11829] - [    21] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutConfigPeriodicUpdateService] Successfully set OptOut config value to False
+2023-05-07 07:25:57.861 - [ 11829] - [    38] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 00:30:00
+2023-05-07 07:49:34.543 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-87 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 07:49:34.549 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Controllers.AccessTokenController] Got access token (expires in 30758400 seconds)
+2023-05-07 07:49:34.549 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-88 | Sending AccessTokenResponse for request AccessTokenRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  (null)
+2023-05-07 07:49:34.570 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 07:49:34.570 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 07:49:34.570 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 07:49:34.570 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000349
+2023-05-07 07:49:34.570 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-89 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 07:49:35.200 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Attempting to contact genesis update license api
+2023-05-07 07:49:35.299 - [ 11829] - [    22] - WARN  - [GenesisClient.HttpRequests] Handled response: [404 | Not Found | {
+  "type" : "https://httpstatuses.com/404",
+  "title" : "Invalid context",
+  "status" : 404,
+  "errorCode" : 404005,
+  "detail" : "Machine bindings in context was not registered before",
+  "instance" : "/licenses/v1/context",
+  "results" : [ ]
+}] from request: [POST | https://license.unity3d.com/licenses/v1/context | {"context":{"DeviceName":"helios","DeviceModel":"PC","PhysicalMemoryMB":"31930","SystemLanguageISO":"en_US","ProcessorCount":"12","ProcessorType":"Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz","OperatingSystem":"Linux 6.3 Arch Linux  64bit","OperatingSystemNumeric":"603","Legacy.MachineBinding1":"db3009a28d1a486eb9c55e7bac0133d4","Legacy.MachineBinding2":"db3009a28d1a486eb9c55e7bac0133d4","EnvironmentUser":"vylssius","EnvironmentDomain":"helios","EnvironmentHostname":"helios"}}]
+2023-05-07 07:49:35.317 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 07:49:35.317 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 07:49:35.317 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 07:49:35.317 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0001226
+2023-05-07 07:49:35.318 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-90 | Sending ActivationManagementResponse for request ActivationManagementRequest from Hub 3.4.2 (LocalIPC/1.12) [207]:  Successfully processed activation management call
+2023-05-07 07:49:35.350 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed (ULF) license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 07:49:35.351 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 07:49:35.351 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing ULF license /home/vylssius/.local/share/unity3d/Unity/Unity_lic.ulf
+2023-05-07 07:49:35.351 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0001141
+2023-05-07 07:49:35.351 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-91 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Success, found: 1 groups
+2023-05-07 07:49:35.367 - [ 11829] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-92 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.4.2 (LocalIPC/1.12) [200]:  Found 1 entitlements
+2023-05-07 07:55:57.860 - [ 11829] - [    29] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 00:30:00
+2023-05-07 08:17:05.472 - [ 11829] - [    29] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Downloaded remote config from: "https://public-cdn.cloud.unity3d.com/config/production"
+2023-05-07 08:17:05.473 - [ 11829] - [    29] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Unity remote config is updated: "/home/vylssius/.config/unity3d/Unity/config/production.json"
+2023-05-07 08:17:07.042 - [ 11829] - [    22] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutConfigPeriodicUpdateService] Syncing OptOut status...
+2023-05-07 08:17:07.043 - [ 11829] - [    22] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutStatusProvider] Getting OptOut status...
+2023-05-07 08:17:07.625 - [ 11829] - [    32] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutConfigPeriodicUpdateService] Successfully set OptOut config value to False
+2023-05-07 08:25:57.861 - [ 11829] - [    32] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 00:30:00
+2023-05-07 08:55:57.860 - [ 11829] - [    38] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 00:30:00
+2023-05-07 09:17:05.465 - [ 11829] - [    37] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Downloaded remote config from: "https://public-cdn.cloud.unity3d.com/config/production"
+2023-05-07 09:17:05.467 - [ 11829] - [    37] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Unity remote config is updated: "/home/vylssius/.config/unity3d/Unity/config/production.json"
+2023-05-07 09:17:07.625 - [ 11829] - [    37] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutConfigPeriodicUpdateService] Syncing OptOut status...
+2023-05-07 09:17:07.626 - [ 11829] - [    37] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutStatusProvider] Getting OptOut status...
+2023-05-07 09:17:08.333 - [ 11829] - [    32] - INFO  - [Unity.Licensing.Client.Services.Analytics.OptOutConfigPeriodicUpdateService] Successfully set OptOut config value to False
