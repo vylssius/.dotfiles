@@ -5,7 +5,7 @@ let VimuxTmuxCommand = "tmux"
 let VimuxLastCommand = "cargo run"
 let VimuxResetSequence = "q C-u"
 let VimuxOpenExtraArgs = ""
-let VimuxRunnerIndex = "%25"
+let VimuxRunnerIndex = "%6"
 let VimuxPromptString = "Command? "
 let VimuxOrientation = "v"
 let VimuxRunnerName = ""
@@ -41,7 +41,7 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 argglobal
-let s:l = 29 - ((28 * winheight(0) + 23) / 47)
+let s:l = 29 - ((28 * winheight(0) + 30) / 60)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt

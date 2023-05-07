@@ -411,3 +411,15 @@
 [ERROR][2023-05-07 04:14:13] .../vim/lsp/rpc.lua:734	"rpc"	"node"	"stderr"	"(node:65693) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 change listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
 [START][2023-05-07 04:21:52] LSP logging initiated
 [WARN][2023-05-07 04:21:52] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-07 12:44:41] LSP logging initiated
+[WARN][2023-05-07 12:44:41] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-07 12:44:56] LSP logging initiated
+[WARN][2023-05-07 12:44:56] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-07 12:45:23] LSP logging initiated
+[WARN][2023-05-07 12:45:23] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-07 12:48:22] LSP logging initiated
+[WARN][2023-05-07 12:48:22] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-07 12:48:36] LSP logging initiated
+[WARN][2023-05-07 12:48:36] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-05-07 13:11:32] LSP logging initiated
+[WARN][2023-05-07 13:11:32] ...lsp/handlers.lua:137	"The language server copilot triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"

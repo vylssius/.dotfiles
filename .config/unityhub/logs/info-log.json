@@ -545,3 +545,6 @@
 {"timestamp":"2023-05-07T09:02:03.680Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
 {"timestamp":"2023-05-07T09:17:03.530Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
 {"timestamp":"2023-05-07T09:17:04.760Z","level":"info","moduleName":"LocalConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]"}
+{"timestamp":"2023-05-07T09:23:37.376Z","level":"info","moduleName":"UnityIPCServer","message":"[ 'IPC server /tmp/Unity-hubIPCService.sock closed' ]"}
+{"timestamp":"2023-05-07T09:23:37.377Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-05-07T09:23:37.383Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
