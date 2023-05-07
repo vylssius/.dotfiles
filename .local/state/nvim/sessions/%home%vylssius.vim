@@ -21,11 +21,11 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +5 .config/nvim/init.lua
+badd +42 .config/bspwm/bspwmrc
 argglobal
 %argdel
-$argadd .config/nvim/init.lua
-edit .config/nvim/init.lua
+$argadd .config/bspwm/bspwmrc
+edit .config/bspwm/bspwmrc
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -34,12 +34,12 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 argglobal
-let s:l = 5 - ((4 * winheight(0) + 30) / 60)
+let s:l = 42 - ((41 * winheight(0) + 30) / 60)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 5
-normal! 026|
+keepjumps 42
+normal! 0
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
