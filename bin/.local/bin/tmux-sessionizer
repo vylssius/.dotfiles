@@ -3,7 +3,7 @@
 if [[ $# -eq 1 ]]; then
 	selected=$1
 else
-	selected=$(find ~/work/builds ~/projects ~/ ~/work -mindepth 1 -maxdepth 2 -type d | fzf)
+	selected=$(find ~/work/builds ~/projects ~/.steam/steam/steamapps/common/GarrysMod/garrysmod/data/ ~/ ~/work -mindepth 1 -maxdepth 2 -type d | fzf)
 fi
 
 if [[ -z $selected ]]; then
