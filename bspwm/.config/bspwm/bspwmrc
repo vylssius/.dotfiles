@@ -39,12 +39,10 @@ bspc config pointer_action3 resize_corner
 bspc rule -a discord desktop="^10"
 bspc rule -a Spotify desktop="^9"
 bspc rule -a Steam desktop="^8"
-bspc rule -a Brave-browser desktop="^2"
+bspc rule -a firefox desktop="^2"
 
 #other
-setxkbmap us -variant colemak
-setxkbmap -option "caps:backspace"
-setxkbmap -option "shift:both_capslock"
-~/.config/polybar/forest/scripts/pywal.sh ~/wallpapers/wallhaven-9mjoy1.png
+
+~/.config/polybar/forest/scripts/pywal.sh ~/wallpapers/anicollage.png
 ~/.config/polybar/forest/scripts/styles.sh --dark
 ~/.config/polybar/launch.sh --forest

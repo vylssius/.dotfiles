@@ -18,6 +18,3 @@ vim.keymap.set("n", "ZZ", ":wqa<CR>")
 
 --rebind ZQ to :qa!
 vim.keymap.set("n", "ZQ", ":qa!<CR>")
-
---bind leader rr to run RustRunnables command
-vim.keymap.set("n", "<leader>rr", vim.cmd.RustRunnables)

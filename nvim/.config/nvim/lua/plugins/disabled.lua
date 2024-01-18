@@ -1,3 +1,5 @@
 return {
-  { "nvim-neo-tree/neo-tree.nvim", enabled = true },
+  { "nvim-neo-tree/neo-tree.nvim", enabled = false },
+  { "echasnovski/mini.pairs", enabled = false },
+  { "nvimdev/dashboard-nvim", enabled = false },
 }
