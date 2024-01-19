@@ -305,7 +305,7 @@ globalkeys = gears.table.join(
 	awful.key({ modkey, "Control" }, "r", awesome.restart, { description = "reload awesome", group = "awesome" }),
 	awful.key({ modkey, "Shift" }, "q", awesome.quit, { description = "quit awesome", group = "awesome" }),
 	awful.key({ modkey }, "w", function()
-		awful.spawn(browser)
+		awful.spawn(browser, awful.rules.rules)
 	end, { description = "open a browser", group = "launcher" }),
 
 	awful.key({ modkey }, "l", function()
@@ -340,11 +340,6 @@ globalkeys = gears.table.join(
 			c:emit_signal("request::activate", "key.unminimize", { raise = true })
 		end
 	end, { description = "restore minimized", group = "client" }),
-
-	-- Prompt
-	awful.key({ modkey }, "p", function()
-		awful.screen.focused().mypromptbox:run()
-	end, { description = "run prompt", group = "launcher" }),
 
 	awful.key({ modkey }, "x", function()
 		awful.prompt.run({
@@ -479,6 +474,22 @@ awful.rules.rules = {
 			screen = awful.screen.preferred,
 			placement = awful.placement.no_overlap + awful.placement.no_offscreen,
 		},
+	},
+
+	-- custom rules --
+	{
+		rule = { class = browser },
+		properties = { tag = "2", switchtotag = true },
+	},
+
+	{
+		rule = { name = "Discord" },
+		properties = { tag = "8", switchtotag = true },
+	},
+
+	{
+		rule = { name = "Spotify" },
+		properties = { tag = "9", switchtotag = true },
 	},
 
 	-- Floating clients.
