@@ -306,7 +306,7 @@ globalkeys = gears.table.join(
 	awful.key({ modkey, "Shift" }, "q", awesome.quit, { description = "quit awesome", group = "awesome" }),
 	awful.key({ modkey }, "w", function()
 		awful.spawn(browser, awful.rules.rules)
-	end, { description = "open a browser", group = "launcher" }),
+	end, { description = "open a browser", group = "client" }),
 
 	awful.key({ modkey }, "l", function()
 		awful.tag.incmwfact(0.05)
@@ -350,7 +350,7 @@ globalkeys = gears.table.join(
 		})
 	end, { description = "lua execute prompt", group = "awesome" }),
 	-- Menubar
-	awful.key({ modkey }, "r", function()
+	awful.key({ modkey }, "space", function()
 		menubar.show()
 	end, { description = "show the menubar", group = "launcher" })
 )
@@ -479,7 +479,7 @@ awful.rules.rules = {
 	-- custom rules --
 	{
 		rule = { class = browser },
-		properties = { tag = "2", switchtotag = true },
+		properties = { tag = "2", switchtotag = true, maximized = false, floating = false },
 	},
 
 	{
@@ -490,6 +490,11 @@ awful.rules.rules = {
 	{
 		rule = { name = "Spotify" },
 		properties = { tag = "9", switchtotag = true },
+	},
+
+	{
+		rule = { name = "Volume Control" },
+		properties = { tag = "7", switchtotag = true },
 	},
 
 	-- Floating clients.
