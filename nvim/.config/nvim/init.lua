@@ -8,6 +8,10 @@ require("rose-pine").setup({
   transparency = true,
 })
 
+require("notify").setup({
+  background_colour = "#000000",
+})
+
 vim.cmd("colorscheme rose-pine")
 
 function ColorMyPencils(color)
