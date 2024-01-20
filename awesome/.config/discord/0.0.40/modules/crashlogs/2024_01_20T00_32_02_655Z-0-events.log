@@ -1,0 +1,27 @@
+2024-01-20T00:32:02.658Z 0: 
+
+----------------------------------------------
+2024-01-20T00:32:02.665Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.40"}, modulepath: /home/vylssius/.config/discord/0.0.40/modules
+2024-01-20T00:32:02.667Z 2: ✅ webContents.created web1 ""
+2024-01-20T00:32:02.668Z 3: ✅ window.created win1 "discord"
+2024-01-20T00:32:02.755Z 4: ✅ webContents.did-finish-load web1
+2024-01-20T00:32:07.040Z 5: ✅ webContents.created web2 ""
+2024-01-20T00:32:07.046Z 6: ✅ window.created win2 "Discord"
+2024-01-20T00:32:08.553Z 7: ✅ webContents.did-finish-load web2
+2024-01-20T00:32:08.653Z 8: window.close win1
+2024-01-20T00:32:08.655Z 9: webContents.destroyed web1
+2024-01-20T00:32:08.658Z 10: window.closed win1
+2024-01-20T01:22:12.730Z 11: before-quit
+2024-01-20T01:51:39.458Z 0: 
+
+----------------------------------------------
+2024-01-20T01:51:39.470Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.40"}, modulepath: /home/vylssius/.config/discord/0.0.40/modules
+2024-01-20T01:51:39.473Z 2: ✅ webContents.created web1 ""
+2024-01-20T01:51:39.474Z 3: ✅ window.created win1 "discord"
+2024-01-20T01:51:39.673Z 4: ✅ webContents.did-finish-load web1
+2024-01-20T01:51:39.941Z 5: ✅ webContents.created web2 ""
+2024-01-20T01:51:39.971Z 6: ✅ window.created win2 "Discord"
+2024-01-20T01:51:41.598Z 7: ✅ webContents.did-finish-load web2
+2024-01-20T01:51:41.698Z 8: window.close win1
+2024-01-20T01:51:41.712Z 9: webContents.destroyed web1
+2024-01-20T01:51:41.714Z 10: window.closed win1

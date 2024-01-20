@@ -483,18 +483,23 @@ awful.rules.rules = {
 	},
 
 	{
-		rule = { name = "Discord" },
-		properties = { tag = "8", switchtotag = true },
-	},
-
-	{
 		rule = { name = "Spotify" },
 		properties = { tag = "9", switchtotag = true },
 	},
 
 	{
-		rule = { name = "Volume Control" },
+		rule = { name = "Discord" },
+		properties = { tag = "8", switchtotag = true },
+	},
+
+	{
+		rule = { name = "Steam" },
 		properties = { tag = "7", switchtotag = true },
+	},
+
+	{
+		rule = { name = "Volume Control" },
+		properties = { tag = "6", switchtotag = true },
 	},
 
 	-- Floating clients.
