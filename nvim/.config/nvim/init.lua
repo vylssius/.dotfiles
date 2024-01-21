@@ -15,26 +15,26 @@ vim.g.mapleader = " "
 
 require("lazy").setup({
 	"folke/which-key.nvim",
-	{ "folke/neoconf.nvim", cmd = "Neoconf" },
 	"folke/neodev.nvim",
-	'nvim-lua/plenary.nvim',
-	{ 'rose-pine/neovim', name = 'rose-pine' },
 	'nvim-treesitter/nvim-treesitter',
 	'nvim-treesitter/playground',
 	'mbbill/undotree',
 	'tpope/vim-fugitive',
 	'mfussenegger/nvim-jdtls',
 	'ggandor/leap.nvim',
+    { 'nvim-lua/plenary.nvim', name = "plenary" },
+	{ 'rose-pine/neovim', name = 'rose-pine' },
+	{ "folke/neoconf.nvim", cmd = "Neoconf" },
 
 	{
 		"ThePrimeagen/harpoon",
 		branch = "harpoon2",
-		dependencies = { {"nvim-lua/plenary.nvim"} }
+		dependencies = { {"plenary"} }
 	},
 
 	{
 		'nvim-telescope/telescope.nvim',
-		dependencies = { {"nvim-lua/plenary.nvim"} }
+		dependencies = { {"plenary"} }
 	},
 
 	{'williamboman/mason.nvim'},
