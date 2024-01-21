@@ -52,10 +52,6 @@ require("lazy").setup({
 	{'rafamadriz/friendly-snippets'},
 })
 
-require("rose-pine").setup({
-	transparency = true,
-})
-
 require("config.keymaps")
 require("config.options")
 require("config.plugins")
