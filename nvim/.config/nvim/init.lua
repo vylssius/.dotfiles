@@ -29,12 +29,12 @@ require("lazy").setup({
 	{
 		"ThePrimeagen/harpoon",
 		branch = "harpoon2",
-		dependencies = { {"plenary"} }
+		dependencies = { { 'nvim-lua/plenary.nvim' } }
 	},
 
 	{
 		'nvim-telescope/telescope.nvim',
-		dependencies = { {"plenary"} }
+		dependencies = { { 'nvim-lua/plenary.nvim' } }
 	},
 
 	{'williamboman/mason.nvim'},
