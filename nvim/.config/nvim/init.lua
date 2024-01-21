@@ -59,6 +59,7 @@ require("config.plugins")
 function ColorMyPencils(color)
 	color = color
 	vim.cmd.colorscheme(color)
+    vim.cmd("highlight! Pmenu guibg=#000000,guifg=#FFFFFF")
 
 	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })

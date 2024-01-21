@@ -52,7 +52,7 @@ end
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
 beautiful.init("/home/vylssius/.config/awesome/theme.lua")
-beautiful.get().wallpaper = "/home/vylssius/.config/awesome/wallpapers/nisangt.jpg"
+beautiful.get().wallpaper = "/home/vylssius/.config/awesome/wallpapers/purplestreet.jpg"
 
 -- This is used later as the default terminal and editor to run.
 terminal = "kitty"
