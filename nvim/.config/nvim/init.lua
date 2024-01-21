@@ -58,6 +58,7 @@ require("rose-pine").setup({
 
 require("config.keymaps")
 require("config.options")
+require("config.plugins")
 
 function ColorMyPencils(color)
 	color = color or "rose-pine"
