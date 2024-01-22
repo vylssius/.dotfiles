@@ -85,6 +85,7 @@ vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
 
 --fugitive
 vim.keymap.set("n", "<leader>gs", vim.cmd.Git)
+vim.keymap.set("n", "<leader>gp", vim.cmd("Git push"))
 
 -- HARPOON
 local harpoon = require("harpoon")
