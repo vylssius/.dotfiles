@@ -20,3 +20,8 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
 vim.keymap.set("n", "<leader>l", "<cmd> Lazy<CR>")
+
+--vimux
+vim.keymap.set("n", "<leader>vo", vim.cmd.VimuxOpenRunner)
+vim.keymap.set("n", "<leader>vc", vim.cmd.VimuxCloseRunner)
+vim.keymap.set("n", "<leader>vr", vim.cmd.VimuxPromptCommand)

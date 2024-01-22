@@ -22,6 +22,7 @@ require("lazy").setup({
 	'tpope/vim-fugitive',
 	'mfussenegger/nvim-jdtls',
 	'ggandor/leap.nvim',
+    'preservim/vimux',
     { 'nvim-lua/plenary.nvim', name = "plenary" },
 	{ 'rose-pine/neovim', name = 'rose-pine' },
 	{ "folke/neoconf.nvim", cmd = "Neoconf" },
@@ -39,7 +40,6 @@ require("lazy").setup({
 
 	{'williamboman/mason.nvim'},
 	{'williamboman/mason-lspconfig.nvim'},
-
 	{'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
 	{'neovim/nvim-lspconfig'},
 	{'hrsh7th/cmp-nvim-lsp'},
