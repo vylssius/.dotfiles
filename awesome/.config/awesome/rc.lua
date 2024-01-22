@@ -52,7 +52,7 @@ end
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
 beautiful.init("/home/vylssius/.config/awesome/theme.lua")
-beautiful.get().wallpaper = "/home/vylssius/.config/awesome/wallpapers/purplestreet.jpg"
+beautiful.get().wallpaper = "/home/vylssius/.config/awesome/wallpapers/nisangt.jpg"
 
 -- This is used later as the default terminal and editor to run.
 terminal = "kitty"
@@ -616,6 +616,6 @@ end)
 -- Auto Start --
 awful.spawn("picom")
 awful.spawn("xrandr --output DP-0 --mode 1920x1080 --rate 240")
-awful.spawn("discord")
+awful.spawn("discord-canary")
 awful.spawn("spotify-launcher")
 awful.spawn("pavucontrol")
